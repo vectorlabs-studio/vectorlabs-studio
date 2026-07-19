@@ -1,22 +1,20 @@
-# Vector Labs Studio: Operating Handbook
+# Vector Labs Studio
 
-Welcome to the open-source repository of **Vector Labs Studio**. 
-
-This repository serves as our public operating manual and core blueprint. It contains the modular principles, decision frameworks, and operating models we use to build and scale a modern, AI-native software studio.
+Vector Labs Studio is an open operating handbook for building modern, AI-native software studios. It defines the foundational philosophies, operating frameworks, and execution systems used to establish a self-improving, highly leverage-driven software company where humans, systems, and automation collaborate as a unified system.
 
 ---
 
-## Why This Handbook Exists
+## Why This Repository Exists
 
-Traditional software organizations spend significant effort documenting temporary processes—ticketing rules, meeting schedules, and tool-specific configurations—yet rarely codify the underlying principles that drive their decisions. The result is organizational drift, fragmented alignment, and constant reinvention of resolved concepts.
+Most software organizations spend significant effort documenting temporary processes—ticketing rules, meeting schedules, or tool-specific configurations—yet rarely capture the underlying principles that drive their decisions. This results in organizational drift, fragmented alignment, and constant reinvention of resolved concepts.
 
-This handbook is designed to capture **enduring organizational thinking** rather than transient operational procedures. By establishing timeless, technology-independent, and implementation-agnostic principles, we build a stable, self-improving system where learning compounds over time.
+This repository exists to preserve **enduring organizational thinking** rather than transient operational procedures. By establishing timeless, technology-independent, and implementation-agnostic principles, we build a stable, self-improving system where learning compounds over time.
 
 ---
 
-## Guiding Philosophy
+## What Makes This Handbook Different
 
-Our approach to building and operating the Studio is guided by a few core tenets:
+Unlike typical corporate playbooks, this handbook operates under a distinct set of guiding beliefs:
 
 *   **Principles over Procedures**: We rely on shared beliefs and reasoned judgment to guide decisions, avoiding rigid rules that restrict adaptability.
 *   **Systems over Heroics**: We build leverage through simple, robust systems, automation, and compounding knowledge rather than depending on individual heroic effort.
@@ -26,7 +24,7 @@ Our approach to building and operating the Studio is guided by a few core tenets
 
 ---
 
-## Handbook Architecture
+## How the Handbook is Organized
 
 The handbook is organized into three logical, progressive layers. Each layer establishes the boundaries and context for the next:
 
@@ -121,7 +119,7 @@ These documents apply our high-level frameworks to specific outputs, including e
 
 ---
 
-## Recommended Reading Order
+## Where Readers Should Begin
 
 To build context progressively, we recommend reading the handbook in the following sequence. Each layer builds upon the foundational and operational models established before it:
 
@@ -149,7 +147,7 @@ To build context progressively, we recommend reading the handbook in the followi
 
 ---
 
-## Contributing
+## How Contributors Can Help
 
 We treat our organization itself as an evolving system. If you want to contribute, please align your proposals with our core writing principles:
 

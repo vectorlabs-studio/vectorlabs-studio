@@ -13,7 +13,7 @@ Founder
 2026-07-19
 
 ## Purpose
-This document defines how Vector Labs Studio designs, operates, and evolves AI agents within our operating model. We view AI agents as core, long-lived capabilities of the Studio rather than ephemeral utilities. This document outlines the foundational principles governing agent collaboration, accountability, structure, and continuous improvement, serving as the philosophical guide for our agentic infrastructure.
+This document defines how Vector Labs Studio designs, operates, and evolves AI agents within our operating model. We view AI agents as core, long-lived capabilities of the Studio rather than ephemeral utilities. This document outlines the foundational principles governing agent collaboration, accountability, structure, and continuous improvement, serving as the foundational guide for the Studio's agent system.
 
 ---
 
@@ -35,22 +35,22 @@ Humans and AI agents operate as integrated partners, combining complementary str
 ## 3. Execution and Knowledge Output
 Agents are expected to contribute to both operational execution and the growth of the Studio's shared knowledge.
 * **Execution**: Agents perform complex tasks, build software components, and run workflows, translating intent into working deliverables.
-* **Knowledge Codification**: Every agent action should help capture context. Agents document their reasoning, highlight assumptions, and formalize lessons from execution, contributing directly to the Studio's shared knowledge base.
+* **Knowledge Codification**: Meaningful agent work should preserve relevant context, assumptions, decisions, and reusable lessons when doing so can improve future execution or shared knowledge. We do not require or expect permanent documentation for trivial or routine actions.
 
 ---
 
 ## 4. Observability and Governance
-To ensure control, security, and reliability, all agents within the Studio must adhere to strict governance standards.
-* **Observability**: The actions, tool executions, reasoning paths, and context of every agent must be fully traceable and observable.
+To ensure control, security, and reliability, all agents within the Studio must adhere to risk-proportional governance and control.
+* **Observability**: We focus observability on reviewable evidence—specifically inputs, assumptions, actions, tool executions, decision rationale, outputs, and outcomes. The required level of traceability must be proportional to the agent's impact, autonomy, and risk, without requiring the exposure of internal reasoning.
 * **Reviewability**: Agent behavior, instructions, configurations, and outputs must be inspectable and subject to peer review by both humans and other agents.
-* **Replaceability**: Agents must be modular. Their design must allow us to update or replace underlying models, tools, or prompt frameworks without breaking the broader system or losing the codified knowledge they manage.
+* **Replaceability**: Agents must be modular. Their design must allow us to update or replace underlying models, tools, or prompt frameworks without breaking the broader system or losing the codified knowledge they manage. No agent should become the sole holder of critical knowledge or an irreplaceable dependency.
 
 ---
 
 ## 5. Compounding Systemic Leverage
 Agents are treated as systems subject to continuous improvement, applying the same learning mindset that governs our products.
 * **Feedback-Driven Evolution**: Every task execution, success, and failure serves as feedback to refine the agent's instructions, context boundaries, and tool capabilities.
-* **Studio-Wide Leverage**: Improvements made to an agent are systemic. Upgrading an agent's capability immediately benefits every product, workflow, and team that utilizes it, compounding the overall leverage of the Studio.
+* **Studio-Wide Leverage**: Upgrades made to shared agents can benefit multiple products and workflows, allowing learning and capability to compound across the Studio. Validated improvements must be evaluated before broad adoption to ensure stability and compatibility across different use cases.
 
 ---
 

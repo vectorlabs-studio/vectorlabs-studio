@@ -31,6 +31,7 @@ graph TD
         blueprint["Blueprint"]:::foundation
         vision["Vision"]:::foundation
         values["Core Values"]:::foundation
+        doc_standards["Documentation Standards"]:::foundation
     end
 
     subgraph Frameworks ["2. Operating Frameworks (Operational Logic)"]
@@ -48,6 +49,7 @@ graph TD
     blueprint --> op_model
     vision --> op_model
     values --> op_model
+    doc_standards --> op_model
     op_model --> dec_making
     op_model --> workflows
     op_model --> eng_standards
@@ -60,6 +62,7 @@ These documents establish the purpose, baseline identity, and cross-cutting prin
 *   **[BLUEPRINT.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/BLUEPRINT.md)**: The entry point to the operating model and knowledge system, defining how the documentation and repository are structured.
 *   **[VISION.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/VISION.md)**: Outlines the long-term, stable direction, core tenets, and success criteria for the Studio as an AI-native company.
 *   **[CORE_VALUES.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/CORE_VALUES.md)**: Defines the behavioral values, expected actions, and decision guidelines for all contributors (humans and agents).
+*   **[DOCUMENTATION_STANDARDS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/DOCUMENTATION_STANDARDS.md)**: Defines the core values and philosophy of documentation within the Studio's durable memory.
 
 ### 2. Operating Frameworks
 These documents define the relationships, collaboration patterns, and decision models that govern Studio activity.
@@ -80,9 +83,10 @@ For new contributors (human or AI), we recommend reading the handbook in the fol
 1.  **[BLUEPRINT.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/BLUEPRINT.md)** (Orientation and entry point)
 2.  **[VISION.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/VISION.md)** (Destination and tenets)
 3.  **[CORE_VALUES.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/CORE_VALUES.md)** (Behavioral standards)
-4.  **[OPERATING_MODEL.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/OPERATING_MODEL.md)** (Operational mechanics)
-5.  **[DECISION_MAKING.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/DECISION_MAKING.md)** (Thinking model)
-6.  **[WORKFLOWS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/WORKFLOWS.md)** (Common lifecycle of work)
-7.  **[ENGINEERING_STANDARDS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/ENGINEERING_STANDARDS.md)** (Core engineering principles)
-8.  **[PRODUCT_LIFECYCLE.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/PRODUCT_LIFECYCLE.md)** (Product lifecycle evolution)
-9.  **[AGENT_SYSTEM.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/AGENT_SYSTEM.md)** (Agent integration principles)
+4.  **[DOCUMENTATION_STANDARDS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/DOCUMENTATION_STANDARDS.md)** (Documentation philosophy)
+5.  **[OPERATING_MODEL.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/OPERATING_MODEL.md)** (Operational mechanics)
+6.  **[DECISION_MAKING.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/DECISION_MAKING.md)** (Thinking model)
+7.  **[WORKFLOWS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/WORKFLOWS.md)** (Common lifecycle of work)
+8.  **[ENGINEERING_STANDARDS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/ENGINEERING_STANDARDS.md)** (Core engineering principles)
+9.  **[PRODUCT_LIFECYCLE.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/PRODUCT_LIFECYCLE.md)** (Product lifecycle evolution)
+10. **[AGENT_SYSTEM.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/AGENT_SYSTEM.md)** (Agent integration principles)

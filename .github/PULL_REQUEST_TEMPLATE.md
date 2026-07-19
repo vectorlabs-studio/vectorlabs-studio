@@ -1,5 +1,3 @@
-## Summary
-
 ### Why is this change needed?
 <!-- Describe the problem, opportunity, or context that motivates this change. -->
 

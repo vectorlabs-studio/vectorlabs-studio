@@ -1,25 +1,24 @@
 name: Feature Proposal
-description: Propose an improvement, framework addition, or capability design.
+description: Propose an improvement or addition to the handbook, repository structure, or contributor experience.
 title: "[Proposal]: "
-labels: ["proposal"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for suggesting an improvement! We focus on capturing enduring principles and structures. Please describe the problem you want to solve rather than prescribing an implementation.
+        Thank you for proposing an improvement! We focus on capturing enduring principles and structures. Please describe the problem or gap in our existing guidance before prescribing an implementation.
   - type: textarea
     id: problem-statement
     attributes:
       label: Problem Statement
-      description: A clear and concise description of the problem this proposal addresses.
-      placeholder: What problem are we solving?
+      description: A clear description of the problem, gap, or opportunity in the repository.
+      placeholder: What problem or gap are we addressing?
     validations:
       required: true
   - type: textarea
     id: motivation
     attributes:
       label: Motivation
-      description: Why is this important to resolve? How does it affect the operational or architectural success of the Studio?
+      description: Why is this important to resolve? How does it improve the clarity or effectiveness of the handbook or repository structure?
       placeholder: Explain the motivation...
     validations:
       required: true
@@ -27,7 +26,7 @@ body:
     id: proposed-improvement
     attributes:
       label: Proposed Improvement
-      description: A clear and concise description of what you want to happen.
+      description: A description of the proposed addition, update, or structural improvement.
       placeholder: Describe the proposed improvement...
     validations:
       required: true
@@ -35,7 +34,7 @@ body:
     id: alternatives
     attributes:
       label: Alternatives Considered
-      description: A clear and concise description of any alternative solutions or features you considered.
+      description: Any alternative structures or approaches you considered.
       placeholder: What alternatives were considered?
     validations:
       required: false
@@ -43,7 +42,7 @@ body:
     id: additional-context
     attributes:
       label: Additional Context
-      description: Add any other context, issues linked, or details about the feature proposal here.
+      description: Add any other context or references about the proposal here.
       placeholder: Any other info...
     validations:
       required: false

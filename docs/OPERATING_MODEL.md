@@ -52,3 +52,16 @@ Improvement is a continuous, system-wide behavior built directly into our operat
   - **Agents**: AI agent capabilities, instructions, and tools are updated based on execution outcomes.
   - **Systems**: When errors occur, we focus on refining our shared standards and automation to reduce the likelihood and impact of recurrence.
 * **Sustainable Scaling**: By continuously improving our shared knowledge and automation, the Studio increases its capacity to support a growing portfolio of products without a proportional increase in organizational complexity.
+
+---
+
+This document intentionally does not define:
+
+- Product lifecycle
+- Development workflows
+- Decision processes
+- Engineering standards
+- Agent architecture
+- Organizational structure
+
+These topics are documented separately and build upon this operating model.

@@ -30,7 +30,8 @@ We prioritize empirical data and logical reasoning over unchecked assumptions, s
 To maintain operational velocity, we scale our analysis and documentation based on the risk and reversibility of the decision.
 * **Irreversible Decisions (One-Way Doors)**: High-impact decisions that are difficult or expensive to reverse (e.g., core architectural commitments, foundational operating standards). These require deep analysis, rigorous review, documented alternatives, and higher confidence.
 * **Reversible Decisions (Two-Way Doors)**: Low-impact decisions that can be easily corrected or rolled back (e.g., localized experiments, minor configuration changes). These should be made rapidly with minimal overhead to maximize learning and execution speed.
-* **Proportional Rigor**: The time, effort, and documentation dedicated to a decision must be proportional to its impact, reversibility, and uncertainty.
+* **Proportional Rigor**: The time, effort, and documentation dedicated to a decision must be proportional to its impact, reversibility, and uncertainty. Delayed decisions also have a cost.
+* **Decision Records**: Significant decisions should leave a durable record explaining the context, assumptions, trade-offs, and rationale.
 
 ---
 
@@ -46,6 +47,7 @@ Decision-making is a collaborative process leveraging the unique strengths of bo
 Decisions are not static events; they are hypotheses tested by real-world execution.
 * **Learning Through Measurement**: Every significant decision must define how its outcome will be measured and when it will be evaluated. We assess success based on durable outcomes rather than the simple completion of tasks.
 * **Adapting to New Evidence**: When assumptions are proven incorrect or new data emerges, we adapt our decisions without personal bias or sunk-cost fallacy. Changing direction in response to new evidence is a strength, not a failure.
+* **Decision Quality vs. Outcome**: A good decision can produce a poor outcome because of uncertainty. A poor decision can occasionally produce a good outcome through luck. Decision quality should be evaluated independently from outcome quality.
 * **Compounding Decision Quality**: We analyze our past decisions—both successful and unsuccessful—to identify systematic errors in our thinking model. These lessons are codified back into our shared knowledge base to improve future decisions.
 
 ---

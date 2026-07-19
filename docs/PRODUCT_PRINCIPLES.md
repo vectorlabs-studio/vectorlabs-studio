@@ -18,23 +18,23 @@ This document defines the product philosophy of Vector Labs Studio. It answers a
 ---
 
 ## 1. Worthiness: Defining What We Build
-* **Meaningful Problem Solving**: A product is only worth building if it resolves a verified, meaningful problem or opportunity for its users. We do not build products to showcase technology; we build them to address real-world needs and friction.
-* **Durable Value**: We prioritize solutions that deliver durable, long-term value over temporary market trends or speculative fads. We focus our investment on capabilities that remain useful as technologies and industries evolve.
-* **Utility over Novelty**: The primary measure of a product is its utility and effectiveness, not its novelty. We design for clarity, function, and ease of use, ensuring that our products serve as reliable tools that help users achieve their outcomes.
+* **Meaningful Opportunity**: An opportunity deserves exploration when there is credible reason to believe it addresses meaningful user value, valuable opportunities, or new user capabilities. We do not build products solely to showcase technology. The size of our investment is kept proportional to the available evidence, uncertainty, risk, and reversibility, allowing for small learning investments to establish whether an opportunity is real.
+* **Durable Value**: We prioritize solutions that deliver durable, long-term value. While market trends may reveal genuine opportunities, temporary attention alone is not sufficient justification for investment. We focus on capabilities that remain useful as technologies and user needs evolve.
+* **Usefulness over Novelty**: The primary measure of a product is its usefulness and effectiveness in helping users achieve meaningful outcomes, not its novelty. We design for clarity, function, and ease of use, ensuring that our products serve as reliable tools.
 
 ---
 
 ## 2. Investment and Evolution
-* **Evidence-Led Investment**: Significant investment of resources and energy must be preceded by credible evidence of the problem's significance and the solution's viability. We scale our commitments proportionally as our understanding and evidence improve.
+* **Evidence-Led Investment**: Significant investment should be supported by credible evidence of the opportunity and a reasoned path for reducing remaining uncertainty about the solution. We scale our commitments proportionally as our understanding and evidence improve.
 * **Simplicity over Feature Growth**: We prefer simple, focused products over those with complex feature sets. Unnecessary feature growth introduces cognitive load and maintainability liabilities; we actively resist expanding a product's scope beyond its core utility.
-* **Continuous Learning**: Products are not static releases; they are evolving systems that improve through continuous learning. We design products to capture feedback and usage observations, allowing them to adapt as user constraints change.
+* **Proportional Evolution**: Products should remain responsive to relevant learning, informed by evidence from users, outcomes, and observed use. The appropriate rate and depth of change depend on users, lifecycle, evidence, and strategic role, allowing a focused product to remain intentionally stable when continued change would not create meaningful value.
 
 ---
 
 ## 3. Mutual Compounding and Long-Term Success
-* **Compounding Capabilities**: Every product we build must compound the Studio's shared knowledge, capabilities, and reusable assets. We evaluate opportunities not only by their external value but also by how much they strengthen the Studio's internal leverage.
-* **Optimizing for Long-Term Value**: Product decisions are guided by long-term value creation rather than short-term gains or convenience. We structure our systems, boundaries, and documentation to remain maintainable and adaptable over their entire lifecycle.
-* **Mutual Success**: A successful product achieves a double outcome: it strengthens its users by resolving their friction, and it strengthens the Studio by generating reusable knowledge, assets, and operational capabilities.
+* **Capability Compounding**: Opportunities become significantly more attractive when they strengthen the Studio's reusable capabilities, shared knowledge, or assets. However, this is not a mandatory condition, and we avoid forced reuse or artificial internal leverage.
+* **Value Balance**: Product decisions should prioritize durable value while recognizing when near-term outcomes provide necessary learning, sustainability, market access, or strategic options. We ensure that near-term gains do not create disproportionate long-term cost.
+* **Sustainable Value**: Successful products should create durable value for users and sustain the Studio's ability to continue creating value. When products also create reusable knowledge, capabilities, or assets, that value compounds across the Studio's portfolio.
 
 ---
 

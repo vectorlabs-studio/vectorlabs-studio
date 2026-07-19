@@ -13,25 +13,25 @@ Founder
 2026-07-19
 
 ## Purpose
-This document defines the communication philosophy of Vector Labs Studio. It answers a single question: **How does information move effectively within the Studio?** It establishes the principles of clarity, durability, and context preservation that ensure information flows efficiently between human and system contributors. Rather than defining Slack channels, email rules, templates, or meeting formats, these principles govern how we exchange ideas and maintain focus.
+This document defines the communication philosophy of Vector Labs Studio. It answers a single question: **How does information move effectively within the Studio?** It establishes the principles of clarity, durability, and context preservation that ensure information flows efficiently between contributors. Rather than defining Slack channels, email rules, templates, or meeting formats, these principles govern how we exchange ideas and maintain focus.
 
 ---
 
 ## 1. Clarity and Context
-* **Clarity First**: Communication must prioritize immediate understanding. We structure information to be concise, logical, and unambiguous, minimizing the cognitive load required to parse intent.
-* **Context Preservation**: Communication is effective only when it carries the background, constraints, and assumptions behind the information. We ensure that context is preserved so that recipients can evaluate decisions and take action autonomously.
-* **Signal over Noise**: We value focus and deep work. Contributors minimize unnecessary interruptions, ensuring that messages are meaningful, targeted, and sent only when they add value or require action.
+* **Clarity First**: Communication should prioritize clarity appropriate to the audience and context. We structure information to be concise, logical, and accessible, reducing the cognitive load required to parse intent.
+* **Context Preservation**: Effective communication carries the background, constraints, and assumptions behind the information. The necessary context varies with significance, complexity, familiarity, and consequences, helping recipients evaluate decisions and take action.
+* **Signal over Noise**: We value focus and deep work. Contributors balance the frequency of communication to preserve focus while ensuring it supports awareness, learning, coordination, exploration, and decisions.
 
 ---
 
 ## 2. Openness and Awareness
-* **Default Transparency**: We make information accessible by default to prevent silos, build shared context, and enable decentralized alignment. Information is protected or restricted only when risk, sensitivity, or privacy warrants it.
-* **Audience Awareness**: Communication must adapt to the needs, capabilities, and constraints of the recipient. Because we operate in a hybrid environment, information must be structured so that both human contributors and AI agents can accurately parse, understand, and integrate it.
+* **Default Transparency**: We share information openly by default to prevent silos, build shared context, and enable decentralized alignment. Openness is balanced with purpose, relevance, privacy, sensitivity, and risk.
+* **Audience Awareness**: Communication should adapt to the needs, capabilities, and context of the recipient. Information should be structured so that recipients can parse, understand, and integrate it.
 
 ---
 
 ## 3. Durability and Proportionality
-* **Durable Communication**: Key decisions, commitments, rationales, and context should be recorded in a format that outlasts transient discussions. We separate immediate, conversational exchanges from the durable records that form the organization's memory.
+* **Durable Communication**: Significant decisions, commitments, rationales, and context should be recorded in a format that outlasts transient discussions, separating immediate conversational exchanges from the durable records that form the organization's memory.
 * **Proportional Communication**: The frequency, format, and depth of communication should reflect the impact, urgency, and complexity of the information. We scale communication to match the context, avoiding both unnecessary overhead for routine matters and superficial details for critical decisions.
 
 ---

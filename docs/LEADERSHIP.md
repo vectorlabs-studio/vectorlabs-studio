@@ -18,22 +18,22 @@ This document defines the leadership philosophy of Vector Labs Studio. It answer
 ---
 
 ## 1. Direction and Clarity
-* **Creating Clarity**: Leadership is the act of establishing and maintaining clarity of purpose, constraints, and success criteria. Leaders ensure that contributors understand why their work matters and what boundaries shape their decisions.
-* **Enabling Alignment**: Leadership aligns autonomous efforts toward the Studio's long-term destination. Leaders build shared understanding of strategic priorities, helping individual units coordinate their work without centralized bottlenecks.
-* **Removing Constraints**: Leadership focuses on identifying, understanding, and resolving systemic friction points. Leaders serve the mission by clearing paths and improving tools, workflows, or resources so contributors can execute effectively.
+* **Creating Clarity**: Leadership is the act of establishing and maintaining clarity of purpose, constraints, and success criteria. Leadership helps contributors understand why their work matters and what boundaries shape their decisions.
+* **Enabling Alignment**: Leadership aligns autonomous efforts across the relevant time horizon. Leadership builds shared understanding of strategic priorities, helping contributors coordinate their work without centralized bottlenecks.
+* **Removing Constraints**: Leadership focuses on identifying, understanding, and resolving systemic friction points. Leadership serves the mission by recognizing and helping address conditions that prevent responsible progress.
 
 ---
 
 ## 2. Stewardship and Authority
-* **Enabling Ownership**: Leadership is measured by the capability and ownership it fosters in others, rather than by personal control. Leaders distribute context and authority, enabling contributors to carry responsibility and stewardship for outcomes.
-* **Exercising Judgment**: Leaders exercise judgment in the face of uncertainty, balancing short-term urgency with long-term systemic health. They model logical reasoning, transparency in trade-offs, and willingness to adapt decisions as new evidence emerges.
+* **Enabling Ownership**: Leadership fosters capability and ownership in others, rather than maintaining personal control. Leadership provides context and support, enabling contributors to exercise judgment and carry meaningful responsibility.
+* **Exercising Judgment**: Leadership exercises judgment in the face of uncertainty, balancing short-term urgency with long-term systemic health. Leadership models logical reasoning, transparency in trade-offs, and willingness to adapt decisions as new evidence emerges.
 * **Authority Beyond Role**: Leadership is an activity rather than a position, title, or seniority. It exists wherever contributors take initiative to create clarity, resolve ambiguity, establish alignment, or build capability, regardless of formal authority.
 
 ---
 
 ## 3. Developing Capability and Context
-* **Developing Contributors**: Leadership is responsible for compounding the capability of the Studio's workforce. Leaders support growth by sharing context, challenging ideas constructively, and transferring experience into reusable lessons.
-* **Adapting to Context**: Leadership approaches must remain proportional and adaptive to the context, risk, complexity, and uncertainty of the work. Leaders adjust their engagement—ranging from close guidance to complete autonomy—based on the situation and the contributors involved.
+* **Developing Contributors**: Leadership supports the development of contributors to compound capability. Leadership enables growth, judgment, and increasing contribution by sharing context and challenging ideas constructively.
+* **Adapting to Context**: Leadership approaches remain proportional and adaptive to the context, risk, complexity, and uncertainty of the work, offering proportionate engagement appropriate to context.
 
 ---
 

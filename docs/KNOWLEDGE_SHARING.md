@@ -13,26 +13,26 @@ Founder
 2026-07-19
 
 ## Purpose
-This document defines the knowledge sharing philosophy of Vector Labs Studio. It answers a single question: **How does learning become organizational capability?** It establishes the principles of compiling, organizing, and evolving shared knowledge to ensure the Studio remains a self-improving system. Rather than defining documentation standards, onboarding workflows, training programs, or repository tools, these principles govern how we capture and build upon collective experience.
+This document defines the knowledge sharing philosophy of Vector Labs Studio. It answers a single question: **How does learning become organizational capability?** It establishes the principles of compiling, organizing, and evolving shared knowledge to support continued organizational learning and adaptation. Rather than defining documentation standards, onboarding workflows, training programs, or repository tools, these principles govern how we capture and build upon collective experience.
 
 ---
 
 ## 1. Preserving and Compounding Knowledge
-* **Learning Compounds**: We treat every task, success, and failure as feedback to expand our organizational capability. By capturing resolved decisions, validated patterns, and operating lessons, we ensure subsequent efforts build on a stronger, faster foundation.
-* **Organizational Memory**: Knowledge must survive the transition of individual contributors or team composition. We cultivate a durable, versioned memory that preserves context, decisions, and constraints, preventing the cognitive waste of rediscovering information.
-* **Context Preservation**: Preserving the "why" is as important as documenting the "what." We capture the assumptions, trade-offs, and constraints behind our standards, enabling future contributors to understand the conditions that shaped the current state.
+* **Learning Compounds**: We treat operational lessons and experiences as feedback to expand our organizational capability. The effort dedicated to capturing and sharing knowledge is scaled proportionally to its future value, reuse potential, significance, and risk of loss.
+* **Organizational Memory**: Knowledge should remain available beyond the transition of individual contributors or changes in team composition. We preserve context, decisions, and constraints in our shared records to reduce the need for unnecessary rediscovery.
+* **Context Preservation**: Effective knowledge sharing ensures that the context, trade-offs, and conditions under which learning occurred remain available beyond the original situation, helping future contributors evaluate its current relevance.
 
 ---
 
 ## 2. Accessibility and Discoverability
-* **Accessibility**: Knowledge is valuable only when it can be easily accessed and understood. We structure shared information to be clear, navigable, and usable by both human contributors and AI agents, enabling decentralized execution without information bottlenecks.
-* **Discoverability**: We design our shared knowledge base to help contributors find relevant context exactly when they need it. We prioritize clean pathways, logical organization, and cross-cutting connections to minimize search time.
+* **Accessibility**: Shared knowledge is most valuable when it is accessible and clear to all contributors, enabling decentralized execution and reducing information bottlenecks.
+* **Discoverability**: Shared knowledge should be organized to help contributors locate relevant context as requirements change. We prioritize logical structure and clear relationships to make context discoverable.
 
 ---
 
 ## 3. Continuity and Evolution
-* **Knowledge Continuity**: As the Studio evolves, we protect context and maintain continuity of key systems and concepts. We ensure that transitions in ownership or focus do not degrade the integrity of our shared memory.
-* **Knowledge Evolution**: Shared knowledge is not static; it grows and refines through operational experience. We treat our standards and playbooks as working hypotheses that must be revised, simplified, or retired when new evidence or context emerges.
+* **Knowledge Continuity**: As the Studio grows, we protect context and maintain continuity of key systems and concepts, ensuring that shifts in focus do not degrade our shared memory.
+* **Knowledge Evolution**: Shared knowledge remains open to refinement, simplification, replacement, or retirement when context and evidence change.
 
 ---
 

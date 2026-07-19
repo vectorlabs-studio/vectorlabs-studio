@@ -36,8 +36,8 @@ graph TD
 
     subgraph Frameworks ["2. Operating Frameworks (Operational Logic)"]
         org_principles["Organization Principles"]:::framework
-        leadership["Leadership"]:::framework
         ownership["Ownership"]:::framework
+        leadership["Leadership"]:::framework
         collaboration["Collaboration"]:::framework
         communication["Communication"]:::framework
         knowledge_sharing["Knowledge Sharing"]:::framework
@@ -62,11 +62,11 @@ graph TD
     values --> op_model
     doc_standards --> op_model
     op_model --> org_principles
-    op_model --> leadership
-    op_model --> ownership
-    op_model --> collaboration
-    op_model --> communication
-    op_model --> knowledge_sharing
+    org_principles --> ownership
+    ownership --> leadership
+    leadership --> collaboration
+    collaboration --> communication
+    communication --> knowledge_sharing
     op_model --> dec_making
     op_model --> workflows
     op_model --> review
@@ -89,8 +89,8 @@ These documents establish the purpose, baseline identity, and cross-cutting prin
 ### 2. Operating Frameworks
 These documents define the relationships, collaboration patterns, and decision models that govern Studio activity.
 *   **[ORGANIZATION_PRINCIPLES.md](ORGANIZATION_PRINCIPLES.md)**: Establishes the organizational philosophy and principles that shape relationships and authority within the Studio.
-*   **[LEADERSHIP.md](LEADERSHIP.md)**: Establishes the leadership philosophy and principles that shape how direction is created within the Studio.
 *   **[OWNERSHIP.md](OWNERSHIP.md)**: Establishes the ownership philosophy and principles that shape responsibility and accountability within the Studio.
+*   **[LEADERSHIP.md](LEADERSHIP.md)**: Establishes the leadership philosophy and principles that shape how direction is created within the Studio.
 *   **[COLLABORATION.md](COLLABORATION.md)**: Establishes the collaboration philosophy and principles that shape how contributors work together to create outcomes.
 *   **[COMMUNICATION.md](COMMUNICATION.md)**: Establishes the communication philosophy and principles that shape how information moves effectively.
 *   **[KNOWLEDGE_SHARING.md](KNOWLEDGE_SHARING.md)**: Establishes the knowledge-sharing philosophy and principles that shape how learning compounds into capability.
@@ -118,8 +118,8 @@ For new contributors (human or AI), we recommend reading the handbook in the fol
 3.  **[CORE_VALUES.md](CORE_VALUES.md)** (Behavioral standards)
 4.  **[DOCUMENTATION_STANDARDS.md](DOCUMENTATION_STANDARDS.md)** (Documentation philosophy)
 5.  **[ORGANIZATION_PRINCIPLES.md](ORGANIZATION_PRINCIPLES.md)** (Organizational philosophy)
-6.  **[LEADERSHIP.md](LEADERSHIP.md)** (Leadership philosophy)
-7.  **[OWNERSHIP.md](OWNERSHIP.md)** (Ownership philosophy)
+6.  **[OWNERSHIP.md](OWNERSHIP.md)** (Ownership philosophy)
+7.  **[LEADERSHIP.md](LEADERSHIP.md)** (Leadership philosophy)
 8.  **[COLLABORATION.md](COLLABORATION.md)** (Collaboration philosophy)
 9.  **[COMMUNICATION.md](COMMUNICATION.md)** (Communication philosophy)
 10. **[KNOWLEDGE_SHARING.md](KNOWLEDGE_SHARING.md)** (Knowledge-sharing philosophy)

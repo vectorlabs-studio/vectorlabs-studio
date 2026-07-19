@@ -1,0 +1,53 @@
+name: Documentation Update
+description: Propose improvements, clarify ambiguity, fix inconsistencies, or report missing guidance in the handbook.
+title: "[Docs]: "
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping us improve our handbook! We welcome updates that refine the clarity and consistency of our operating manual.
+  - type: checkboxes
+    id: issue-type
+    attributes:
+      label: Type of Documentation Issue
+      options:
+        - label: Inconsistency
+        - label: Ambiguity
+        - label: Outdated Content
+        - label: Missing Guidance
+        - label: Structural Improvement
+    validations:
+      required: true
+  - type: input
+    id: affected-documents
+    attributes:
+      label: Affected Document(s)
+      description: Which handbook files or documents are affected by this proposal?
+      placeholder: e.g., docs/COMMUNICATION.md
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the ambiguity, inconsistency, or gap in the current documentation.
+      placeholder: Explain the issue in detail...
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-improvement
+    attributes:
+      label: Proposed Improvement (Optional)
+      description: Describe the wording, structure, or content you propose adding or changing.
+      placeholder: Wording or layout suggestions...
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context or references here.
+      placeholder: Any other info...
+    validations:
+      required: false

@@ -1,0 +1,57 @@
+name: Bug Report
+description: Report a bug, inconsistency, or issue in the repository.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue! Please provide as much detail as possible to help us understand and resolve the bug.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: A clear and concise description of what the bug is.
+      placeholder: Describe the issue...
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: A clear and concise description of what you expected to happen.
+      placeholder: What should have happened...
+    validations:
+      required: true
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      description: A clear and concise description of what actually happened.
+      placeholder: What actually happened...
+    validations:
+      required: true
+  - type: input
+    id: affected-documents
+    attributes:
+      label: Affected Document(s)
+      description: List any files or documents in the repository affected by this issue (if applicable).
+      placeholder: e.g., docs/DECISION_MAKING.md
+    validations:
+      required: false
+  - type: textarea
+    id: reproduction-details
+    attributes:
+      label: Reproduction Details
+      description: Explain the steps to reproduce the issue, if relevant.
+      placeholder: Steps to reproduce...
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context or screenshots about the problem here.
+      placeholder: Any other info...
+    validations:
+      required: false

@@ -35,6 +35,7 @@ graph TD
     end
 
     subgraph Frameworks ["2. Operating Frameworks (Operational Logic)"]
+        org_principles["Organization Principles"]:::framework
         op_model["Operating Model"]:::framework
         dec_making["Decision-Making"]:::framework
         workflows["Workflows"]:::framework
@@ -55,6 +56,7 @@ graph TD
     vision --> op_model
     values --> op_model
     doc_standards --> op_model
+    op_model --> org_principles
     op_model --> dec_making
     op_model --> workflows
     op_model --> review
@@ -76,6 +78,7 @@ These documents establish the purpose, baseline identity, and cross-cutting prin
 
 ### 2. Operating Frameworks
 These documents define the relationships, collaboration patterns, and decision models that govern Studio activity.
+*   **[ORGANIZATION_PRINCIPLES.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/ORGANIZATION_PRINCIPLES.md)**: Establishes the organizational philosophy and principles that shape relationships and authority within the Studio.
 *   **[OPERATING_MODEL.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/OPERATING_MODEL.md)**: Explains how humans, AI agents, automation, and products interact to form a compounding learning loop.
 *   **[DECISION_MAKING.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/DECISION_MAKING.md)**: Establishes the cognitive and analytical framework used to evaluate evidence, weigh trade-offs, and make high-quality decisions.
 *   **[WORKFLOWS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/WORKFLOWS.md)**: Establishes the workflow philosophy and the common lifecycle of work across the Studio.
@@ -99,14 +102,15 @@ For new contributors (human or AI), we recommend reading the handbook in the fol
 2.  **[VISION.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/VISION.md)** (Destination and tenets)
 3.  **[CORE_VALUES.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/CORE_VALUES.md)** (Behavioral standards)
 4.  **[DOCUMENTATION_STANDARDS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/DOCUMENTATION_STANDARDS.md)** (Documentation philosophy)
-5.  **[OPERATING_MODEL.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/OPERATING_MODEL.md)** (Operational mechanics)
-6.  **[DECISION_MAKING.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/DECISION_MAKING.md)** (Thinking model)
-7.  **[WORKFLOWS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/WORKFLOWS.md)** (Common lifecycle of work)
-8.  **[REVIEW_PROCESS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/REVIEW_PROCESS.md)** (Confidence-building philosophy)
-9.  **[ARCHITECTURE_GUIDELINES.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/ARCHITECTURE_GUIDELINES.md)** (Core architectural principles)
-10. **[ENGINEERING_STANDARDS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/ENGINEERING_STANDARDS.md)** (Core engineering principles)
-11. **[PRODUCT_DISCOVERY.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/PRODUCT_DISCOVERY.md)** (Product discovery philosophy)
-12. **[PRODUCT_PRINCIPLES.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/PRODUCT_PRINCIPLES.md)** (Product philosophy)
-13. **[EXPERIMENTATION.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/EXPERIMENTATION.md)** (Experimentation philosophy)
-14. **[PRODUCT_LIFECYCLE.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/PRODUCT_LIFECYCLE.md)** (Product lifecycle evolution)
-15. **[AGENT_SYSTEM.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/AGENT_SYSTEM.md)** (Agent integration principles)
+5.  **[ORGANIZATION_PRINCIPLES.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/ORGANIZATION_PRINCIPLES.md)** (Organizational philosophy)
+6.  **[OPERATING_MODEL.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/OPERATING_MODEL.md)** (Operational mechanics)
+7.  **[DECISION_MAKING.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/DECISION_MAKING.md)** (Thinking model)
+8.  **[WORKFLOWS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/WORKFLOWS.md)** (Common lifecycle of work)
+9.  **[REVIEW_PROCESS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/REVIEW_PROCESS.md)** (Confidence-building philosophy)
+10. **[ARCHITECTURE_GUIDELINES.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/ARCHITECTURE_GUIDELINES.md)** (Core architectural principles)
+11. **[ENGINEERING_STANDARDS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/ENGINEERING_STANDARDS.md)** (Core engineering principles)
+12. **[PRODUCT_DISCOVERY.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/PRODUCT_DISCOVERY.md)** (Product discovery philosophy)
+13. **[PRODUCT_PRINCIPLES.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/PRODUCT_PRINCIPLES.md)** (Product philosophy)
+14. **[EXPERIMENTATION.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/EXPERIMENTATION.md)** (Experimentation philosophy)
+15. **[PRODUCT_LIFECYCLE.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/PRODUCT_LIFECYCLE.md)** (Product lifecycle evolution)
+16. **[AGENT_SYSTEM.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/AGENT_SYSTEM.md)** (Agent integration principles)

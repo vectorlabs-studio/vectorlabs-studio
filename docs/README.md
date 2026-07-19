@@ -46,6 +46,7 @@ graph TD
         eng_standards["Engineering Standards"]:::execution
         prod_discovery["Product Discovery"]:::execution
         prod_principles["Product Principles"]:::execution
+        experimentation["Experimentation"]:::execution
         lifecycle["Product Lifecycle"]:::execution
         agents["Agent System"]:::execution
     end
@@ -61,6 +62,7 @@ graph TD
     op_model --> eng_standards
     op_model --> prod_discovery
     op_model --> prod_principles
+    op_model --> experimentation
     op_model --> lifecycle
     op_model --> agents
 ```
@@ -85,6 +87,7 @@ These documents outline the principles governing specific outputs and components
 *   **[ENGINEERING_STANDARDS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/ENGINEERING_STANDARDS.md)**: Establishes the core engineering principles for maintainability, simplicity, adaptability, and data-driven decisions.
 *   **[PRODUCT_DISCOVERY.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/PRODUCT_DISCOVERY.md)**: Establishes the discovery philosophy and the principles for reducing uncertainty before making product commitments.
 *   **[PRODUCT_PRINCIPLES.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/PRODUCT_PRINCIPLES.md)**: Establishes the core product philosophy and the principles for evaluating product opportunities.
+*   **[EXPERIMENTATION.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/EXPERIMENTATION.md)**: Establishes the experimentation philosophy and the principles for learning responsibly under uncertainty.
 *   **[PRODUCT_LIFECYCLE.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/PRODUCT_LIFECYCLE.md)**: Defines how products evolve from problem discovery to eventual retirement as continuously improved systems.
 *   **[AGENT_SYSTEM.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/AGENT_SYSTEM.md)**: Outlines the principles, governance, and collaboration model for AI agents.
 
@@ -104,5 +107,6 @@ For new contributors (human or AI), we recommend reading the handbook in the fol
 10. **[ENGINEERING_STANDARDS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/ENGINEERING_STANDARDS.md)** (Core engineering principles)
 11. **[PRODUCT_DISCOVERY.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/PRODUCT_DISCOVERY.md)** (Product discovery philosophy)
 12. **[PRODUCT_PRINCIPLES.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/PRODUCT_PRINCIPLES.md)** (Product philosophy)
-13. **[PRODUCT_LIFECYCLE.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/PRODUCT_LIFECYCLE.md)** (Product lifecycle evolution)
-14. **[AGENT_SYSTEM.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/AGENT_SYSTEM.md)** (Agent integration principles)
+13. **[EXPERIMENTATION.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/EXPERIMENTATION.md)** (Experimentation philosophy)
+14. **[PRODUCT_LIFECYCLE.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/PRODUCT_LIFECYCLE.md)** (Product lifecycle evolution)
+15. **[AGENT_SYSTEM.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/AGENT_SYSTEM.md)** (Agent integration principles)

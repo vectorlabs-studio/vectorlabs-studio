@@ -36,6 +36,7 @@ graph TD
 
     subgraph Frameworks ["2. Operating Frameworks (Operational Logic)"]
         org_principles["Organization Principles"]:::framework
+        ownership["Ownership"]:::framework
         op_model["Operating Model"]:::framework
         dec_making["Decision-Making"]:::framework
         workflows["Workflows"]:::framework
@@ -57,6 +58,7 @@ graph TD
     values --> op_model
     doc_standards --> op_model
     op_model --> org_principles
+    op_model --> ownership
     op_model --> dec_making
     op_model --> workflows
     op_model --> review
@@ -79,6 +81,7 @@ These documents establish the purpose, baseline identity, and cross-cutting prin
 ### 2. Operating Frameworks
 These documents define the relationships, collaboration patterns, and decision models that govern Studio activity.
 *   **[ORGANIZATION_PRINCIPLES.md](ORGANIZATION_PRINCIPLES.md)**: Establishes the organizational philosophy and principles that shape relationships and authority within the Studio.
+*   **[OWNERSHIP.md](OWNERSHIP.md)**: Establishes the ownership philosophy and principles that shape responsibility and accountability within the Studio.
 *   **[OPERATING_MODEL.md](OPERATING_MODEL.md)**: Explains how humans, AI agents, automation, and products interact to form a compounding learning loop.
 *   **[DECISION_MAKING.md](DECISION_MAKING.md)**: Establishes the cognitive and analytical framework used to evaluate evidence, weigh trade-offs, and make high-quality decisions.
 *   **[WORKFLOWS.md](WORKFLOWS.md)**: Establishes the workflow philosophy and the common lifecycle of work across the Studio.
@@ -103,14 +106,15 @@ For new contributors (human or AI), we recommend reading the handbook in the fol
 3.  **[CORE_VALUES.md](CORE_VALUES.md)** (Behavioral standards)
 4.  **[DOCUMENTATION_STANDARDS.md](DOCUMENTATION_STANDARDS.md)** (Documentation philosophy)
 5.  **[ORGANIZATION_PRINCIPLES.md](ORGANIZATION_PRINCIPLES.md)** (Organizational philosophy)
-6.  **[OPERATING_MODEL.md](OPERATING_MODEL.md)** (Operational mechanics)
-7.  **[DECISION_MAKING.md](DECISION_MAKING.md)** (Thinking model)
-8.  **[WORKFLOWS.md](WORKFLOWS.md)** (Common lifecycle of work)
-9.  **[REVIEW_PROCESS.md](REVIEW_PROCESS.md)** (Confidence-building philosophy)
-10. **[ARCHITECTURE_GUIDELINES.md](ARCHITECTURE_GUIDELINES.md)** (Core architectural principles)
-11. **[ENGINEERING_STANDARDS.md](ENGINEERING_STANDARDS.md)** (Core engineering principles)
-12. **[PRODUCT_DISCOVERY.md](PRODUCT_DISCOVERY.md)** (Product discovery philosophy)
-13. **[PRODUCT_PRINCIPLES.md](PRODUCT_PRINCIPLES.md)** (Product philosophy)
-14. **[EXPERIMENTATION.md](EXPERIMENTATION.md)** (Experimentation philosophy)
-15. **[PRODUCT_LIFECYCLE.md](PRODUCT_LIFECYCLE.md)** (Product lifecycle evolution)
-16. **[AGENT_SYSTEM.md](AGENT_SYSTEM.md)** (Agent integration principles)
+6.  **[OWNERSHIP.md](OWNERSHIP.md)** (Ownership philosophy)
+7.  **[OPERATING_MODEL.md](OPERATING_MODEL.md)** (Operational mechanics)
+8.  **[DECISION_MAKING.md](DECISION_MAKING.md)** (Thinking model)
+9.  **[WORKFLOWS.md](WORKFLOWS.md)** (Common lifecycle of work)
+10. **[REVIEW_PROCESS.md](REVIEW_PROCESS.md)** (Confidence-building philosophy)
+11. **[ARCHITECTURE_GUIDELINES.md](ARCHITECTURE_GUIDELINES.md)** (Core architectural principles)
+12. **[ENGINEERING_STANDARDS.md](ENGINEERING_STANDARDS.md)** (Core engineering principles)
+13. **[PRODUCT_DISCOVERY.md](PRODUCT_DISCOVERY.md)** (Product discovery philosophy)
+14. **[PRODUCT_PRINCIPLES.md](PRODUCT_PRINCIPLES.md)** (Product philosophy)
+15. **[EXPERIMENTATION.md](EXPERIMENTATION.md)** (Experimentation philosophy)
+16. **[PRODUCT_LIFECYCLE.md](PRODUCT_LIFECYCLE.md)** (Product lifecycle evolution)
+17. **[AGENT_SYSTEM.md](AGENT_SYSTEM.md)** (Agent integration principles)

@@ -27,6 +27,7 @@ Products are living systems that evolve continuously as we gather real-world usa
 * **Continuous Evolution**: Once launched, a product does not enter a static maintenance mode; it is subject to ongoing refinement based on feedback and operational reality.
 * **Releases as Milestones**: A release is not a finish line or the completion of a project. It is simply a milestone that validates our assumptions and exposes the system to user reality. Each release is a tool for learning and a generator of new feedback.
 * **Adapting to Evidence**: If evidence shows that user needs have shifted, or that our original assumptions were incorrect, the product must adapt. We do not commit to a static roadmap; we adjust the product's direction dynamically based on logical evaluation and observed outcome quality.
+* **Cyclical Evolution**: Products do not progress through a linear sequence of static states. They may revisit earlier stages of discovery and adaptation whenever new evidence or changing user needs require re-evaluation.
 
 ---
 
@@ -42,11 +43,12 @@ We view product retirement as a natural, healthy stage of the product lifecycle 
 * **Criteria for Retirement**: A product is retired when it no longer addresses a meaningful user need, when its maintenance cost exceeds its value, or when it has been superseded by a simpler and more effective system.
 * **Responsible Wind-Down**: Retirement involves transitioning users responsibly, archiving data, and decommissioning infrastructure cleanly.
 * **Retrospective Capture**: The final act of a product's lifecycle is a comprehensive capture of its history, design patterns, and operational lessons, ensuring its knowledge remains a permanent part of the Studio.
+* **Learning After Sunset**: Retiring a product should preserve the knowledge, reusable assets, and lessons it generated, ensuring that no product's contribution is completely lost.
 
 ---
 
 ## 5. Ultimate Success
-A successful product achieves two key outcomes:
+A product's success is measured not only by user value, but also by how much it improves the Studio's long-term capabilities. A successful product achieves two key outcomes:
 * **User Value**: It delivers simple, reliable, and high-value solutions that resolve user friction over the long term.
 * **Studio Strengthening**: It strengthens the Studio by leaving behind a legacy of reusable assets, improved workflows, and validated shared knowledge, making the company more capable of building the next generation of software.
 

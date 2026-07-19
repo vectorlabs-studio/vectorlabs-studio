@@ -42,6 +42,7 @@ graph TD
     end
 
     subgraph Execution ["3. Execution Systems (Actionable Principles)"]
+        architecture["Architecture Guidelines"]:::execution
         eng_standards["Engineering Standards"]:::execution
         lifecycle["Product Lifecycle"]:::execution
         agents["Agent System"]:::execution
@@ -54,6 +55,7 @@ graph TD
     op_model --> dec_making
     op_model --> workflows
     op_model --> review
+    op_model --> architecture
     op_model --> eng_standards
     op_model --> lifecycle
     op_model --> agents
@@ -75,6 +77,7 @@ These documents define the relationships, collaboration patterns, and decision m
 
 ### 3. Execution Systems
 These documents outline the principles governing specific outputs and components within our operating model.
+*   **[ARCHITECTURE_GUIDELINES.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/ARCHITECTURE_GUIDELINES.md)**: Establishes the core architectural principles for managing complexity and enabling safe system evolution.
 *   **[ENGINEERING_STANDARDS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/ENGINEERING_STANDARDS.md)**: Establishes the core engineering principles for maintainability, simplicity, adaptability, and data-driven decisions.
 *   **[PRODUCT_LIFECYCLE.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/PRODUCT_LIFECYCLE.md)**: Defines how products evolve from problem discovery to eventual retirement as continuously improved systems.
 *   **[AGENT_SYSTEM.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/AGENT_SYSTEM.md)**: Outlines the principles, governance, and collaboration model for AI agents.
@@ -91,6 +94,7 @@ For new contributors (human or AI), we recommend reading the handbook in the fol
 6.  **[DECISION_MAKING.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/DECISION_MAKING.md)** (Thinking model)
 7.  **[WORKFLOWS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/WORKFLOWS.md)** (Common lifecycle of work)
 8.  **[REVIEW_PROCESS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/REVIEW_PROCESS.md)** (Confidence-building philosophy)
-9.  **[ENGINEERING_STANDARDS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/ENGINEERING_STANDARDS.md)** (Core engineering principles)
-10. **[PRODUCT_LIFECYCLE.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/PRODUCT_LIFECYCLE.md)** (Product lifecycle evolution)
-11. **[AGENT_SYSTEM.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/AGENT_SYSTEM.md)** (Agent integration principles)
+9.  **[ARCHITECTURE_GUIDELINES.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/ARCHITECTURE_GUIDELINES.md)** (Core architectural principles)
+10. **[ENGINEERING_STANDARDS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/ENGINEERING_STANDARDS.md)** (Core engineering principles)
+11. **[PRODUCT_LIFECYCLE.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/PRODUCT_LIFECYCLE.md)** (Product lifecycle evolution)
+12. **[AGENT_SYSTEM.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/AGENT_SYSTEM.md)** (Agent integration principles)

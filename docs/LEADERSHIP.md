@@ -25,14 +25,14 @@ This document defines the leadership philosophy of Vector Labs Studio. It answer
 ---
 
 ## 2. Stewardship and Authority
-* **Enabling Ownership**: Leadership fosters capability and ownership in others, rather than maintaining personal control. Leadership provides context and support, enabling contributors to exercise judgment and carry meaningful responsibility.
+* **Enabling Ownership**: Leadership fosters capability and ownership in others, rather than maintaining personal control. Leadership provides context and support, helping contributors exercise judgment and carry meaningful responsibility.
 * **Exercising Judgment**: Leadership exercises judgment in the face of uncertainty, balancing short-term urgency with long-term systemic health. Leadership models logical reasoning, transparency in trade-offs, and willingness to adapt decisions as new evidence emerges.
 * **Authority Beyond Role**: Leadership is an activity rather than a position, title, or seniority. It exists wherever contributors take initiative to create clarity, resolve ambiguity, establish alignment, or build capability, regardless of formal authority.
 
 ---
 
 ## 3. Developing Capability and Context
-* **Developing Contributors**: Leadership supports the development of contributors to compound capability. Leadership enables growth, judgment, and increasing contribution by sharing context and challenging ideas constructively.
+* **Developing Contributors**: Leadership supports the development of contributors to compound capability. Leadership contributes to growth, judgment, and increasing contribution by sharing context and challenging ideas constructively.
 * **Adapting to Context**: Leadership approaches remain proportional and adaptive to the context, risk, complexity, and uncertainty of the work, offering proportionate engagement appropriate to context.
 
 ---

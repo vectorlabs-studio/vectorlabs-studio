@@ -32,7 +32,7 @@ This document defines the knowledge sharing philosophy of Vector Labs Studio. It
 
 ## 3. Continuity and Evolution
 * **Knowledge Continuity**: As the Studio grows, we protect context and maintain continuity of key systems and concepts, ensuring that shifts in focus do not degrade our shared memory.
-* **Knowledge Evolution**: Shared knowledge remains open to refinement, simplification, replacement, or retirement when context and evidence change.
+* **Knowledge Evolution**: Shared knowledge remains open to refinement, simplification, replacement, or retirement when context and evidence change. We recognize that knowledge is contextual and may naturally lose its validity or expire over time.
 
 ---
 

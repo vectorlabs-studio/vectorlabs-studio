@@ -25,7 +25,7 @@ This document defines the collaboration philosophy of Vector Labs Studio. It ans
 ---
 
 ## 2. Disagreement and Learning
-* **Constructive Disagreement**: We treat healthy friction and divergent opinions as valuable tools for quality. Contributors challenge ideas objectively using evidence, reasoning, experience, and relevant perspectives, focusing on finding a sufficiently strong or contextually appropriate direction rather than winning debates.
+* **Constructive Disagreement**: We treat healthy friction and divergent opinions as valuable tools for quality. Disagreement exists to improve understanding rather than to produce consensus. Contributors challenge ideas objectively using evidence, reasoning, experience, and relevant perspectives, focusing on finding a sufficiently strong or contextually appropriate direction rather than winning debates.
 * **Collective Learning**: Collaboration supports shared learning. Working together allows contributors to exchange insights and perspective during active execution.
 
 ---

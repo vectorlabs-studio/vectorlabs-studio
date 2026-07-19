@@ -18,7 +18,7 @@ This document defines the communication philosophy of Vector Labs Studio. It ans
 ---
 
 ## 1. Clarity and Context
-* **Clarity First**: Communication should prioritize clarity appropriate to the audience and context. We structure information to be concise, logical, and accessible, reducing the cognitive load required to parse intent.
+* **Clarity First**: Communication should prioritize clarity appropriate to the audience and context. We structure information to be concise, logical, and accessible, reducing cognitive load without sacrificing necessary nuance.
 * **Context Preservation**: Effective communication carries the background, constraints, and assumptions behind the information. The necessary context varies with significance, complexity, familiarity, and consequences, helping recipients evaluate decisions and take action.
 * **Signal over Noise**: We value focus and deep work. Contributors balance the frequency of communication to preserve focus while ensuring it supports awareness, learning, coordination, exploration, and decisions.
 

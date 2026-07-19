@@ -38,6 +38,7 @@ graph TD
         op_model["Operating Model"]:::framework
         dec_making["Decision-Making"]:::framework
         workflows["Workflows"]:::framework
+        review["Review Process"]:::framework
     end
 
     subgraph Execution ["3. Execution Systems (Actionable Principles)"]
@@ -52,6 +53,7 @@ graph TD
     doc_standards --> op_model
     op_model --> dec_making
     op_model --> workflows
+    op_model --> review
     op_model --> eng_standards
     op_model --> lifecycle
     op_model --> agents
@@ -69,6 +71,7 @@ These documents define the relationships, collaboration patterns, and decision m
 *   **[OPERATING_MODEL.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/OPERATING_MODEL.md)**: Explains how humans, AI agents, automation, and products interact to form a compounding learning loop.
 *   **[DECISION_MAKING.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/DECISION_MAKING.md)**: Establishes the cognitive and analytical framework used to evaluate evidence, weigh trade-offs, and make high-quality decisions.
 *   **[WORKFLOWS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/WORKFLOWS.md)**: Establishes the workflow philosophy and the common lifecycle of work across the Studio.
+*   **[REVIEW_PROCESS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/REVIEW_PROCESS.md)**: Establishes the philosophy of review as a collaborative, knowledge-building, and confidence-building activity.
 
 ### 3. Execution Systems
 These documents outline the principles governing specific outputs and components within our operating model.
@@ -87,6 +90,7 @@ For new contributors (human or AI), we recommend reading the handbook in the fol
 5.  **[OPERATING_MODEL.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/OPERATING_MODEL.md)** (Operational mechanics)
 6.  **[DECISION_MAKING.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/DECISION_MAKING.md)** (Thinking model)
 7.  **[WORKFLOWS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/WORKFLOWS.md)** (Common lifecycle of work)
-8.  **[ENGINEERING_STANDARDS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/ENGINEERING_STANDARDS.md)** (Core engineering principles)
-9.  **[PRODUCT_LIFECYCLE.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/PRODUCT_LIFECYCLE.md)** (Product lifecycle evolution)
-10. **[AGENT_SYSTEM.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/AGENT_SYSTEM.md)** (Agent integration principles)
+8.  **[REVIEW_PROCESS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/REVIEW_PROCESS.md)** (Confidence-building philosophy)
+9.  **[ENGINEERING_STANDARDS.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/ENGINEERING_STANDARDS.md)** (Core engineering principles)
+10. **[PRODUCT_LIFECYCLE.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/PRODUCT_LIFECYCLE.md)** (Product lifecycle evolution)
+11. **[AGENT_SYSTEM.md](file:///Users/muratcanbur/Desktop/vectorlabs-studio/docs/AGENT_SYSTEM.md)** (Agent integration principles)

@@ -13,38 +13,37 @@ Founder
 2026-07-19
 
 ## Purpose
-This document defines the philosophy of documentation within Vector Labs Studio. We treat documentation as a long-lived organizational asset rather than temporary communication or process. This document establishes the principles for why we document, what knowledge belongs in our permanent documentation, and what must be excluded to keep our knowledge system clear and sustainable.
+This document defines the philosophy of documentation within Vector Labs Studio. We treat documentation as part of the Studio's durable, versioned memory rather than temporary communication or process. This document establishes the principles for why we document, what knowledge belongs in our shared documentation, and what must be excluded to keep our knowledge system clear, sustainable, and relevant as decisions and context evolve.
 
 ---
 
 ## 1. The Value of Documentation
-Documentation exists to eliminate the cognitive waste of rediscovering information or repeating resolved decisions. It is the primary mechanism for scaling the Studio's capabilities beyond individual memory.
-* **Durability**: We build documentation to outlive the individuals who wrote it. It is designed to remain understandable and useful over years, serving as the permanent repository of the Studio's operating context.
-* **Dual Audience**: We write documentation to serve human contributors and AI agents equally. It must be clear, structured, and logical, enabling both human readers and automated systems to parse context, extract lessons, and act on instructions with minimal ambiguity.
+Documentation exists to eliminate the cognitive waste of rediscovering information or repeating resolved decisions. It is a core mechanism that preserves important context and makes knowledge understandable across the Studio, alongside working systems, measurements, and reusable assets.
+* **Durability**: We build documentation to serve as the Studio's versioned memory, designed to remain understandable and usable over time. As knowledge and decisions change, documents may evolve, be superseded, or lose relevance.
+* **Dual Audience**: Documentation should remain understandable and usable by both human contributors and AI agents, without optimizing exclusively for either audience. It must be clear and structured to help both human and AI readers parse context and extract key lessons.
 
 ---
 
 ## 2. What We Preserve: Decisions, Context, and Constraints
-We do not document transient conversations or raw discussion history. Instead, documentation captures the final, structured outcomes of those interactions.
-To remain useful, documentation must preserve:
-* **Context**: The problem, opportunities, and background surrounding a decision.
-* **Rationale**: The reasoning, assumptions, and evidence that led to a choice.
-* **Constraints**: The boundaries, trade-offs, and conditions under which a decision is valid.
-* **Decisions**: The accepted standards, operating rules, or technical directions.
+Documentation represents the current accepted state of knowledge rather than raw discussion history or transient logs. While meeting records, chat logs, and status updates serve as temporary source material or evidence, they should not be treated as durable Studio knowledge without synthesis. Documentation should preserve the resulting knowledge rather than reproducing the entire conversation.
+To remain useful, documentation should preserve:
+* **Context and Rationale**: The background, reasoning, and evidence that support our current state of knowledge.
+* **Assumptions and Uncertainty**: Explicitly documented assumptions, remaining uncertainty, and validity conditions.
+* **Decisions and Alternatives**: The accepted standards, decision status, and significant trade-offs or rejected alternatives.
 
 ---
 
 ## 3. What We Omit
 To prevent information rot and maintain clarity, documentation must exclude:
-* **Transient Content**: We omit temporary status, meeting minutes, chat records, issue tracking logs, and local configurations.
-* **Implementation History**: We do not duplicate context that is captured automatically in version control.
+* **Transient Content**: We exclude temporary status, raw meeting minutes, chat records, and work-tracking logs from durable documentation, preserving only the synthesized outcomes.
+* **Chronological History**: Documentation should preserve the knowledge required to understand the current state, rather than reproduce a chronological history of every implementation change.
 * **Operational Details**: We do not mix high-level knowledge with rules about text formats, directory structures, document templates, or parsing tools.
 
 ---
 
 ## 4. Proportionality and Evolution
-* **Proportional Rigor**: The depth, structure, and maintenance effort of documentation must be proportional to the risk, impact, and longevity of the knowledge being preserved. Routine tasks and low-impact experiments do not require permanent documentation.
-* **Event-Driven Evolution**: Documentation should only evolve when our underlying knowledge, standards, or decisions change. We do not modify documentation for superficial reasons; updates must reflect a change in the Studio's operating reality or validated experience.
+* **Proportional Rigor**: The depth, structure, and maintenance effort of documentation must be proportional to the risk, impact, longevity, and reuse value of the knowledge being preserved. We avoid creating unnecessary documentation for routine or low-impact work.
+* **Active Guidance Evolution**: Documentation should be updated when its underlying knowledge, standards, or decisions change; when its validity changes; when it conflicts with another authoritative document; or when its current expression no longer communicates the knowledge accurately. Outdated knowledge should be updated, superseded, or removed from active guidance rather than silently coexisting with current guidance.
 
 ---
 
@@ -57,4 +56,4 @@ This document intentionally does not define:
 - Tooling, automated documentation generators, or parsers
 - Chat, issue tracking, or task management systems
 
-These technical rules and formats are documented separately and build upon these core documentation principles.
+Where needed, implementation-specific guidance may be defined separately without changing these principles.

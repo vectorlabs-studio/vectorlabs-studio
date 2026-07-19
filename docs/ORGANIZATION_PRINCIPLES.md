@@ -18,34 +18,34 @@ This document defines the organizational philosophy of Vector Labs Studio. It an
 ---
 
 ## 1. Leverage and Purpose
-* **Leverage-Driven Design**: The primary purpose of our organization is to create and sustain leverage for our builders (both human and agentic). Every structural layer or coordination mechanism must justify itself by increasing the Studio's overall capability and output.
-* **Purpose-Aligned Structure**: System and team structures must follow their underlying purpose. We form relationships and groupings based on the outcomes we aim to deliver, rather than maintaining arbitrary, static departments.
-* **Clarity over Control**: We scale the Studio through clarity of goals, interfaces, and expectations, rather than through centralized control or monitoring. When builders understand their context and responsibilities, they can operate safely and autonomously.
+* **Leverage-Driven Design**: The primary purpose of our organization is to create and sustain leverage, resilience, clarity, sustainability, and learning for contributors serving the Studio's mission. Organizational structures and coordination mechanisms should justify their cost by improving relevant outcomes such as clarity, resilience, learning, accountability, adaptability, sustainable leverage, or execution effectiveness.
+* **Purpose-Aligned Structure**: Organizational structures, working relationships, and responsibility boundaries must follow their underlying purpose. We form working relationships and groupings based on the outcomes we aim to deliver, rather than maintaining arbitrary, static departments.
+* **Clarity over Control**: We scale the Studio through clarity of goals, responsibilities, and expectations, rather than through centralized control or monitoring. Clear purpose, responsibilities, authority, and constraints enable appropriate autonomy and accountability.
 
 ---
 
 ## 2. Responsibilities and Decisions
-* **Explicit Responsibilities**: Roles, interfaces, and boundary responsibilities must be documented and explicit. Clear ownership reduces coordination overhead, prevents gaps, and ensures that builders can interact without constant realignment.
-* **Localized Decisions**: Decision authority must remain close to the relevant knowledge and evidence. Consequential choices should be made by the builders who hold the most context and live with the outcomes, rather than being escalated through hierarchy.
-* **Frictionless Coordination**: Coordination mechanisms exist solely to support outcomes and reduce unnecessary friction. We minimize handoffs, meetings, and intermediate approvals, preferring direct, synchronous or asynchronous communication between builders.
+* **Explicit Responsibilities**: Responsibilities and decision boundaries should be sufficiently explicit and accessible for the significance, complexity, duration, and risk of the work. Clear ownership reduces coordination overhead, reduces ambiguity, and minimizes the risk of unowned work.
+* **Localized Decisions**: Decisions should remain close to relevant knowledge and evidence, avoiding unnecessary escalation. While we prefer localized decision-making, we acknowledge that broader consequences, shared risks, dependencies, and overall accountability may require wider participation or oversight.
+* **Supportive Coordination**: Coordination should focus on reducing unnecessary friction rather than eliminating all friction. Some coordination cost is justified when it creates shared understanding, manages dependencies, exposes risk, or protects meaningful outcomes.
 
 ---
 
 ## 3. Adaptation and Evolvability
-* **Evolving Context**: The organization must adapt and restructure as our strategic context, goals, and capabilities change. We do not preserve structures out of habit or tradition; we dismantle them when they no longer serve our mission.
-* **Adaptive Systems**: Teams are viewed as dynamic, adaptive systems that evolve with their tasks and outcomes, rather than as static organigrams. We expect configurations, sizes, and interfaces to adjust as problems are solved or opportunities shift.
-* **Continuous Organizational Learning**: A sustainable organization is one that continuously learns from its operations, review processes, and outcomes. We integrate feedback loops into our workflows to refine not only our products but also the organization itself.
-* **Mission First**: The organization is a tool created to serve the Studio's mission; it is not an end in itself. We actively resist organizational self-preservation and bureaucratic growth that detracts from execution and focus.
+* **Proportional Adaptation**: Working relationships and structures should remain open to change when their current form no longer serves the mission effectively. We balance the need for adaptability with the value of continuity, stability, trust, and accumulated context, choosing to revise, simplify, replace, or retire structures when justified.
+* **Adaptive Composition**: Teams should balance continuity with adaptability, adjusting team composition, relationships, and responsibilities when meaningful changes in purpose, constraints, responsibility, or context warrant evolution, rather than maintaining static structures.
+* **Organizational Learning**: A sustainable organization uses relevant evidence and observations from its operations and outcomes to continuously refine how it works.
+* **Mission First**: The organization exists to serve the Studio's mission; it is not an end in itself. While continuity is valuable when it protects capability, trust, resilience, or institutional learning, organizational structures and working relationships should not be preserved solely because they already exist.
 
 ---
 
 ## Scope Boundaries
 This document intentionally does not define:
 
-- Hiring, recruiting, sourcing, or interview structures
-- Career progression, job titles, levels, or performance reviews
-- Compensation models, benefits, or employee relations
-- Organization charts, hierarchical reporting paths, or job descriptions
-- Specific management frameworks (e.g., Scrum, Agile boards, Spotify model)
+- Hiring, sourcing, recruiting, or talent acquisition processes
+- Performance management, promotions, compensation, or career progression models
+- Tactical team templates, meeting schedules, or project coordination frameworks
+- Organizational chart structures, job descriptions, or formal job titles
+- Human resources operations, employee relations, or administrative policies
 
 Where needed, implementation-specific guidance may be defined separately without changing these principles.

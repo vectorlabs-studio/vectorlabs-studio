@@ -37,6 +37,10 @@ graph TD
     subgraph Frameworks ["2. Operating Frameworks (Operational Logic)"]
         org_principles["Organization Principles"]:::framework
         ownership["Ownership"]:::framework
+        leadership["Leadership"]:::framework
+        collaboration["Collaboration"]:::framework
+        communication["Communication"]:::framework
+        knowledge_sharing["Knowledge Sharing"]:::framework
         op_model["Operating Model"]:::framework
         dec_making["Decision-Making"]:::framework
         workflows["Workflows"]:::framework
@@ -58,7 +62,11 @@ graph TD
     values --> op_model
     doc_standards --> op_model
     op_model --> org_principles
-    op_model --> ownership
+    org_principles --> ownership
+    ownership --> leadership
+    leadership --> collaboration
+    collaboration --> communication
+    communication --> knowledge_sharing
     op_model --> dec_making
     op_model --> workflows
     op_model --> review
@@ -82,6 +90,10 @@ These documents establish the purpose, baseline identity, and cross-cutting prin
 These documents define the relationships, collaboration patterns, and decision models that govern Studio activity.
 *   **[ORGANIZATION_PRINCIPLES.md](ORGANIZATION_PRINCIPLES.md)**: Establishes the organizational philosophy and principles that shape relationships and authority within the Studio.
 *   **[OWNERSHIP.md](OWNERSHIP.md)**: Establishes the ownership philosophy and principles that shape responsibility and accountability within the Studio.
+*   **[LEADERSHIP.md](LEADERSHIP.md)**: Establishes the leadership philosophy and principles that shape how direction is created within the Studio.
+*   **[COLLABORATION.md](COLLABORATION.md)**: Establishes the collaboration philosophy and principles that shape how contributors work together to create outcomes.
+*   **[COMMUNICATION.md](COMMUNICATION.md)**: Establishes the communication philosophy and principles that shape how information moves effectively.
+*   **[KNOWLEDGE_SHARING.md](KNOWLEDGE_SHARING.md)**: Establishes the knowledge-sharing philosophy and principles that shape how learning compounds into capability.
 *   **[OPERATING_MODEL.md](OPERATING_MODEL.md)**: Explains how humans, AI agents, automation, and products interact to form a compounding learning loop.
 *   **[DECISION_MAKING.md](DECISION_MAKING.md)**: Establishes the cognitive and analytical framework used to evaluate evidence, weigh trade-offs, and make high-quality decisions.
 *   **[WORKFLOWS.md](WORKFLOWS.md)**: Establishes the workflow philosophy and the common lifecycle of work across the Studio.
@@ -107,14 +119,18 @@ For new contributors (human or AI), we recommend reading the handbook in the fol
 4.  **[DOCUMENTATION_STANDARDS.md](DOCUMENTATION_STANDARDS.md)** (Documentation philosophy)
 5.  **[ORGANIZATION_PRINCIPLES.md](ORGANIZATION_PRINCIPLES.md)** (Organizational philosophy)
 6.  **[OWNERSHIP.md](OWNERSHIP.md)** (Ownership philosophy)
-7.  **[OPERATING_MODEL.md](OPERATING_MODEL.md)** (Operational mechanics)
-8.  **[DECISION_MAKING.md](DECISION_MAKING.md)** (Thinking model)
-9.  **[WORKFLOWS.md](WORKFLOWS.md)** (Common lifecycle of work)
-10. **[REVIEW_PROCESS.md](REVIEW_PROCESS.md)** (Confidence-building philosophy)
-11. **[ARCHITECTURE_GUIDELINES.md](ARCHITECTURE_GUIDELINES.md)** (Core architectural principles)
-12. **[ENGINEERING_STANDARDS.md](ENGINEERING_STANDARDS.md)** (Core engineering principles)
-13. **[PRODUCT_DISCOVERY.md](PRODUCT_DISCOVERY.md)** (Product discovery philosophy)
-14. **[PRODUCT_PRINCIPLES.md](PRODUCT_PRINCIPLES.md)** (Product philosophy)
-15. **[EXPERIMENTATION.md](EXPERIMENTATION.md)** (Experimentation philosophy)
-16. **[PRODUCT_LIFECYCLE.md](PRODUCT_LIFECYCLE.md)** (Product lifecycle evolution)
-17. **[AGENT_SYSTEM.md](AGENT_SYSTEM.md)** (Agent integration principles)
+7.  **[LEADERSHIP.md](LEADERSHIP.md)** (Leadership philosophy)
+8.  **[COLLABORATION.md](COLLABORATION.md)** (Collaboration philosophy)
+9.  **[COMMUNICATION.md](COMMUNICATION.md)** (Communication philosophy)
+10. **[KNOWLEDGE_SHARING.md](KNOWLEDGE_SHARING.md)** (Knowledge-sharing philosophy)
+11. **[OPERATING_MODEL.md](OPERATING_MODEL.md)** (Operational mechanics)
+12. **[DECISION_MAKING.md](DECISION_MAKING.md)** (Thinking model)
+13. **[WORKFLOWS.md](WORKFLOWS.md)** (Common lifecycle of work)
+14. **[REVIEW_PROCESS.md](REVIEW_PROCESS.md)** (Confidence-building philosophy)
+15. **[ARCHITECTURE_GUIDELINES.md](ARCHITECTURE_GUIDELINES.md)** (Core architectural principles)
+16. **[ENGINEERING_STANDARDS.md](ENGINEERING_STANDARDS.md)** (Core engineering principles)
+17. **[PRODUCT_DISCOVERY.md](PRODUCT_DISCOVERY.md)** (Product discovery philosophy)
+18. **[PRODUCT_PRINCIPLES.md](PRODUCT_PRINCIPLES.md)** (Product philosophy)
+19. **[EXPERIMENTATION.md](EXPERIMENTATION.md)** (Experimentation philosophy)
+20. **[PRODUCT_LIFECYCLE.md](PRODUCT_LIFECYCLE.md)** (Product lifecycle evolution)
+21. **[AGENT_SYSTEM.md](AGENT_SYSTEM.md)** (Agent integration principles)

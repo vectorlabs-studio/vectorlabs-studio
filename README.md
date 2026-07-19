@@ -1,6 +1,6 @@
 # Vector Labs Studio
 
-Vector Labs Studio is an open operating handbook for designing and evolving a modern software studio. It defines the foundational philosophies, operational frameworks, technical guidelines, product systems, and organizational principles that align our work and help build compounding capability.
+Vector Labs Studio is an open operating handbook for designing and evolving a modern software studio. It defines the foundations, operating frameworks, and execution systems that align our work and help build compounding capability.
 
 ---
 
@@ -26,15 +26,13 @@ This operating manual is built on a few core tenets that shape how we think and 
 
 ## Handbook Organization
 
-The handbook is organized into five logical, progressive layers:
+The handbook is organized into three logical, progressive layers:
 
-1.  **Foundation**: Establishes our core identity, vision, and behavioral expectations.
-2.  **Operational**: Defines how we manage operations, workflows, decisions, and review processes.
-3.  **Technical**: Establishes architecture, engineering, and documentation guidelines.
-4.  **Product**: Outlines product principles, discovery, and experimentation systems.
-5.  **Organization**: Defines relationships, leadership, collaboration, and ownership.
+1.  **Foundations**: Establish the purpose, baseline identity, and cross-cutting principles of the Studio.
+2.  **Operating Frameworks**: Define the relationships, collaboration patterns, and decision models that govern Studio activity.
+3.  **Execution Systems**: Outline the principles governing specific outputs and components within our operating model.
 
-For the complete index of all 21 files and detailed visual dependency diagrams, see the [Handbook Index (docs/README.md)](docs/README.md).
+For the complete handbook index, dependency map, and reading order, see the [Handbook Index (docs/README.md)](docs/README.md).
 
 ---
 

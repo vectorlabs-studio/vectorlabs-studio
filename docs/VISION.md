@@ -19,12 +19,12 @@ This document outlines the long-term direction of Vector Labs Studio. It serves 
 We exist to establish a company that can continuously create exceptional software. While we solve complex problems by building individual products, our primary focus is the development of the system that creates them. In a landscape often characterized by unnecessary complexity and bloated architectures, we design Vector Labs Studio as an AI-native software company that prioritizes quality, reliability, and simplicity.
 
 ## Our Destination
-Our destination is a self-improving AI-native software company capable of continuously creating exceptional products. Every product we build, workflow we establish, success we achieve, and failure we analyze must feedback into and improve the Studio itself. Rather than scaling through raw headcount, we grow by compounding our shared knowledge and the capability of our systems. This destination is built on a collaborative ecosystem where human builders, AI agents, automation, and shared infrastructure operate as unified, highly integrated units.
+Our destination is a self-improving AI-native software company capable of continuously creating exceptional products. Every product we build, workflow we establish, success we achieve, and failure we analyze must feed back into and improve the Studio itself. Rather than scaling through raw headcount, we grow by compounding our shared knowledge and the capability of our systems. This destination is built on a collaborative ecosystem where human builders, AI agents, automation, and shared infrastructure operate as unified, highly integrated units.
 
 ## Core Tenets
 * **System Compounding**: Every project and operational iteration must contribute back to our collective capability, making subsequent efforts faster and more reliable.
 * **Architectural Simplicity**: We design systems that are easy to understand, inspect, and modify. We resist complexity at all layers, prioritizing long-term operational viability.
-* **Unified Workflows**: We operate under integrated environments where humans and AI entities collaborate seamlessly, leveraging automation to remove friction from execution.
+* **Unified Workflows**: We operate under integrated environments where humans and AI agents collaborate seamlessly, leveraging automation to remove friction from execution.
 * **Autonomous Execution**: Operational context is distributed through clear, accessible documentation and modular systems, enabling units to execute without centralized bottlenecks.
 
 ## Measuring Success

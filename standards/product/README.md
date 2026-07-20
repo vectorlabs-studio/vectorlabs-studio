@@ -1,62 +1,81 @@
 # Product Standard
 
-This standard defines the shared practices for making product decisions within Vector Labs Studio. It answers a single question: **How should product decisions be made within Vector Labs Studio?** It builds upon the core principles established in the handbook to guide product thinking from initial opportunity through continuous evolution.
+This standard defines the shared practices for making product decisions within Vector Labs Studio. It inherits the handbook's principles, follows the Standards Foundation, and provides a common baseline for recurring product decisions while allowing proportional judgment when contexts differ. It guides product thinking from initial opportunity through continuous evolution.
 
 ---
 
-## 1. Problem-First Mindset
+## Problem Understanding and Value
 
-Product decisions begin with a deep understanding of the problem rather than an attachment to a specific solution:
+Product decisions begin with understanding who is affected and what meaningful problem, need, or opportunity is being addressed. We define product value broadly to ensure decisions remain applicable to customer-facing products, internal systems, developer platforms, operational systems, infrastructure capabilities, partner ecosystems, and obligation-driven work:
 
-*   **Understanding the Problem**: Before proposing or committing to new work, clearly articulate the user need or friction being addressed. 
-*   **User-Centered Value**: Evaluate product decisions by their potential to create tangible value or capability for the user, rather than simply introducing novelty or complexity.
-*   **Co-Evolving Opportunity**: Allow our understanding of the problem and the potential responses to evolve together, using early concepts to clarify the problem space.
+*   **Understanding Affected Stakeholders**: Clarify the specific users, customers, operators, or stakeholders affected by the decision. The depth of problem understanding should reflect the impact, uncertainty, reversibility, risk, and cost of being wrong.
+*   **Broad Value Evaluation**: Product decisions should balance the direct value created for stakeholders with organizational value, strategic relevance, long-term sustainability, and material constraints or obligations.
+*   **Co-Evolving Opportunity**: Allow our understanding of the problem and potential responses to evolve together, using early concepts to clarify constraints and requirements.
 
 ---
 
-## 2. Managing Assumptions and Validation
+## Strategic Coherence
+
+Product opportunities should not be evaluated in isolation. A product decision should align with and support the broader product ecosystem:
+
+*   **Holistic Evaluation**: Consider whether a proposed opportunity supports the product's intended direction, current priorities, and existing commitments.
+*   **System Coherence**: Evaluate how the decision affects the consistency and integrity of the broader product, avoiding changes that degrade the overall experience or create conflicting behaviors.
+*   **Opportunity Cost**: Assess the opportunity cost of selecting a specific direction over alternative paths, ensuring we allocate resources to the most impactful work.
+
+---
+
+## Managing Assumptions and Validation
 
 We make product decisions under varying degrees of uncertainty, using validation to build confidence proportionally:
 
-*   **Identifying Critical Assumptions**: Explicitly call out key assumptions regarding user behavior, value creation, and feasibility that underlie the decision.
-*   **Proportional Validation**: Validate assumptions whenever practical using methods appropriate to the risk, scope, and reversibility of the decision. This evidence may include research, experimentation, direct feedback, product metrics, or other observations.
+*   **Identifying Critical Assumptions**: Explicitly identify key assumptions regarding value creation, stakeholder behavior, feasibility, and dependencies that underlie the decision.
+*   **Proportional Validation**: Validate assumptions whenever practical using methods appropriate to the risk, cost, and reversibility of the decision. Validation evidence may include research, experimentation, direct feedback, product metrics, or other observations.
 *   **Accepting Residual Risk**: Validation is used to reduce uncertainty to an acceptable level for the next decision, rather than attempting to prove viability prematurely or eliminate all risk.
 
 ---
 
-## 3. Prioritization as an Ongoing Process
+## Success Criteria and Decision Utility
 
-Prioritization is not a one-time planning exercise but an ongoing decision-making activity:
+Before committing to meaningful product work, success criteria should be clarified proportionally to help guide later decisions:
 
-*   **Continuous Refinement**: Priorities should evolve dynamically as new evidence, operational outcomes, user feedback, and strategic contexts change.
-*   **Balancing Value, Effort, and Risk**: Evaluate priorities by weighing expected user value against implementation effort, technical debt, and risk.
-*   **Avoiding Rigid Forecasts**: Avoid static, long-term roadmaps that assume perfect foresight. Keep prioritization flexible to capture emerging opportunities and learning.
+*   **Expected Change**: Articulate the specific, observable change expected from the work, referencing the baseline or current condition when available.
+*   **Evaluation Context**: Define the context or period in which the outcome should be evaluated.
+*   **Guardrails**: Identify important guardrails or potential adverse effects that would invalidate success.
+*   **Decision Triggers**: Establish what evidence or observations will trigger continuation, revision, pause, or retirement of the product direction.
 
 ---
 
-## 4. Outcome-Focused Scope Management
+## Addressing Unintended Consequences
 
-We manage scope to deliver value early and avoid unnecessary system complexity:
+Material product decisions must evaluate potential secondary effects and unintended consequences before implementation begins:
 
-*   **Defining Outcomes First**: Clarify the expected user outcomes and success criteria before defining implementation details.
+*   **Secondary Impact**: Assess whether a decision may negatively affect another user or stakeholder group, reduce trust, or shift costs or risks elsewhere.
+*   **Complexity and Sustainability**: Evaluate whether the change introduces unnecessary complexity, conflicts with existing product behaviors, or weakens the long-term sustainability of the product or platform.
+
+---
+
+## Planning and Roadmaps
+
+We plan to establish direction while maintaining adaptability in execution:
+
+*   **Long-Term Direction**: Distinguish between necessary long-term commitments and false certainty. We plan long-term direction, key dependencies, and strategic commitments where needed, while avoiding rigid forecasts.
+*   **Roadmaps as Current Intent**: Treat roadmaps as expressions of current intent, priorities, dependencies, and confidence based on available evidence. They remain open to revision when assumptions, obligations, or contexts materially change.
+
+---
+
+## Outcome-Focused Scope Management
+
+We manage scope to deliver value progressively and maintain system health:
+
+*   **Defining Outcomes First**: Clarify the expected outcomes and success criteria before defining implementation details. Feasibility, delivery cost, and product health are treated as inputs to this process.
 *   **Incremental Delivery**: Structure product changes into small, workable increments to accelerate learning and reduce risk.
-*   **Resisting Complexity**: Actively resist over-scoping and unnecessary feature growth, prioritizing simplicity and core utility over comprehensive coverage.
+*   **Resisting Complexity**: Actively resist over-scoping, prioritizing simplicity and core utility over comprehensive feature coverage.
 
 ---
 
-## 5. Evaluating Success and Trade-offs
+## Continuous Learning and Hypotheses
 
-We define and measure success by the outcomes achieved rather than the activities completed:
+Product decisions grow more robust as our collective knowledge compounds:
 
-*   **Outcomes over Output**: Success is evaluated by the useful changes in user capability or organizational results, not by the sheer delivery or completion of planned work.
-*   **Reversible Trade-offs**: Classify decisions by their reversibility. Make smaller, faster commitments for easily reversible choices, reserving rigorous evaluation for high-impact, hard-to-reverse trade-offs.
-*   **Openness to Revision**: Remain open to revising, pausing, or retiring product initiatives when new evidence or metrics indicate they are not achieving expected outcomes.
-
----
-
-## 6. Continuous Learning and Iteration
-
-Product decisions are working hypotheses that require continuous refinement:
-
-*   **Observation and Feedback**: Gather evidence after release to observe actual use, measure outcomes, and collect feedback.
-*   **Compounding Knowledge**: Integrate post-launch observations back into the decision-making process, ensuring subsequent decisions build on a stronger foundation of knowledge.
+*   **Hypothesis-Led Evolution**: Decisions involving uncertain outcomes should be treated as working hypotheses, refined through post-release observation, evidence, and measurement. Decisions driven by clear obligations, safety requirements, or operational needs should still remain open to evaluation and learning.
+*   **Integrating Lessons**: Gather feedback and metrics after release to observe actual use and integrate those observations back into subsequent product choices.

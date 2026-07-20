@@ -1,65 +1,71 @@
 # Documentation Standard
 
-This standard defines the shared practices for writing, structuring, and maintaining documentation within Vector Labs Studio. It answers a single question: **How should documentation be written and maintained within Vector Labs Studio?** It builds upon the core principles established in the handbook to ensure our documentation remains durable, clear, and easy to maintain.
+This standard defines the shared practices for writing, structuring, and maintaining documentation within Vector Labs Studio. It answers a single question: **How should documentation be written and maintained within Vector Labs Studio?** It builds upon the core principles established in the handbook to support clear, coherent, and maintainable documentation.
 
 ---
 
-## 1. Single Responsibility
+## Proportional Documentation
 
-To prevent cognitive overhead and information sprawl, every document must be organized around a single responsibility:
+Documentation should be written and managed according to its purpose, intended audience, expected lifetime, impact, risk, and reuse value. Rigor, structure, review depth, and maintenance expectations should be proportional to the document's importance and longevity.
 
-*   **One Core Question**: Each document should answer exactly one fundamental question. Everything included in the document must directly support answering that question.
-*   **Preventing Scope Bleed**: Avoid creating documents that accumulate unrelated guidance or diverse topics. 
-*   **Decoupled Growth**: When a topic expands to address new questions or distinct responsibilities, those concerns should be factored out into a new document rather than stretching the existing one.
-
----
-
-## 2. Information Architecture and Structure
-
-Documentation is structured to maximize discoverability and ease of navigation while avoiding unnecessary complexity.
-
-*   **Explicit Boundaries**: Each document must clearly define its scope—stating what it covers and, where necessary, explicitly detailing what it does not cover (scope boundaries).
-*   **Flat over Deep**: We organize documentation with a preference for logical, flat structures over deep nesting. Avoid introducing artificial hierarchies or nested directories that make discovery difficult.
-*   **Consistent Anatomy**: While document structures do not need to be identical, they should maintain consistency in naming, structural logic, and terminology. This ensures readers can navigate diverse documents with minimal cognitive friction.
+*   **Durable Shared Guidance**: Documents intended for long-term organizational value should focus on enduring principles and clear trade-offs, avoiding transient operational details or project-specific context.
+*   **Scoped and Temporary Documentation**: Project-specific or short-lived documents may include contextual, transient, or implementation details when necessary for their immediate responsibility.
 
 ---
 
-## 3. Writing Style and Terminology
+## Single Responsibility
 
-Clear writing is the foundation of clear alignment. Our writing style is designed to be accessible, precise, and durable:
+To manage complexity and support discoverability, each document should focus on one clear primary responsibility:
 
-*   **Principle-Driven and Timeless**: Focus on concepts, frameworks, and patterns that endure, rather than short-term configurations.
-*   **Terminology Consistency**: Use key terms consistently across all documents. Avoid introducing synonyms for defined concepts, which creates ambiguity.
-*   **Concise Expression**: Prefer clarity and brevity over long explanations. Every paragraph, list, or diagram should serve to make the document's answer easier to understand.
-
----
-
-## 4. Referential Integrity and Duplication
-
-Duplicate information is a primary driver of documentation rot. We protect the integrity of our knowledge base by adhering to these guidelines:
-
-*   **Cross-References over Copying**: Prefer hyperlinking to the authoritative source of a concept rather than duplicating its explanation. Assume other documents exist and rely on them.
-*   **Single Source of Truth**: Every principle, pattern, or standard should have a single home. If a concept is needed in multiple contexts, refer to its primary document rather than rewriting it.
+*   **Primary Responsibility**: A document should address a single primary question or topic. Supporting questions and relevant context may be included when they directly serve that responsibility.
+*   **Preventing Scope Bleed**: Unrelated concerns should be separated into different files rather than combined into a single document.
+*   **Balanced Organization**: While scope boundaries should be maintained, we avoid excessive fragmentation that splits closely related concepts into many artificially small documents.
 
 ---
 
-## 5. Maintainability and Evolution
+## Document Stewardship
 
-Documentation is a living representation of our shared understanding, not a static record.
+Documents with durable shared value should have identifiable stewardship to ensure their ongoing quality and relevance:
 
-*   **Ease of Modification**: Focus on small, modular documents that are simple to update, extend, or reorganize.
-*   **Guidance Retirement**: When context changes and guidance loses its validity, the affected documents must be updated, replaced, or retired rather than allowed to linger as outdated records.
-*   **Reorganization**: As domains grow, proactively restructure and clean up documentation pathways to prevent legacy organization from obscuring current knowledge.
+*   **Stewardship Responsibilities**: Stewards help maintain accuracy, respond when the underlying knowledge changes, resolve contradictions, and ensure that outdated guidance is updated, superseded, or retired.
+*   **Adaptive Ownership**: We do not require static metadata blocks (such as version numbers, last updated dates, or specific owners) inside every file. Stewardship is fluid and may move as responsibilities and domains evolve.
 
 ---
 
-## 6. Review Guidelines
+## Authoritative Sources and Cross-References
 
-Review is a collaborative activity aimed at building confidence in our shared knowledge. When reviewing documentation changes, reviewers should evaluate:
+To prevent duplicate information and conflicting guidance, each core concept should have a single authoritative home:
 
-*   **Architecture and Scope**: Does the change respect the document's single responsibility? Does it introduce unnecessary duplication or cross-layer conflicts?
-*   **Clarity and Simplicity**: Is the proposed wording clear, concise, and accessible? Does it avoid unnecessary complexity?
-*   **Consistency**: Is the terminology consistent with the rest of the repository?
-*   **Durable Value**: Does the contribution capture enduring guidance, avoiding temporary or project-specific details?
+*   **Contextual Summaries**: When another document requires context from an authoritative source for reader comprehension, it may include a concise summary of the concept. This prevents readers from having to follow a link merely to understand the local document's basic context.
+*   **Referential Integrity**: Any contextual summary should link to the authoritative source, avoid duplicating substantial guidance, and remain consistent with the primary definition. It must not create a competing or conflicting definition.
 
-Reviewing documentation should focus as much on the quality of the information architecture and scope discipline as it does on editorial correctness.
+---
+
+## Information Architecture
+
+We organize documentation to support discoverability and clear navigation:
+
+*   **Shallow Structures**: Use the shallowest structure that preserves clear domain boundaries, ownership, and discoverability. We avoid deep nesting that obscures content.
+*   **Meaningful Hierarchy**: Directory and document hierarchies should exist only when they communicate meaningful relationships and structures.
+*   **Explicit Scope**: Each document should clearly define its domain boundaries, helping readers understand where the guidance applies.
+
+---
+
+## Writing Style and Terminology
+
+Our writing practices are designed to help contributors communicate clearly and maintain terminology consistency:
+
+*   **Clarity and Precision**: Write with clarity and precision, aligning the depth of detail with the document's intended lifetime and audience.
+*   **Contextual Completeness**: Provide sufficient background to make the guidance understandable within its scope without requiring external search.
+*   **Terminology Consistency**: Use established terms consistently. Avoid introducing synonyms for defined concepts, helping to prevent ambiguity.
+
+---
+
+## Review Guidelines
+
+Review is a collaborative activity that helps build confidence in our shared knowledge. When reviewing documentation, contributors should evaluate:
+
+*   **Responsibility and Scope**: Does the document have a clear primary responsibility? Is the level of detail appropriate for the document's purpose and expected lifetime?
+*   **Clarity and Precision**: Is the guidance clear, and are assumptions, scope, and validity conditions clearly articulated where relevant?
+*   **Information Architecture**: Is the document located in the appropriate domain, and does it maintain referential integrity with authoritative sources?
+*   **Stewardship**: For durable shared guidance, is the future maintenance or stewardship responsibility sufficiently clear?

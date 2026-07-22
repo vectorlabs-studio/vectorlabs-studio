@@ -1,6 +1,6 @@
 # Engineering Standard
 
-This standard defines the shared practices for engineering software systems within Vector Labs Studio. It answers a single question: **How should software systems be engineered within Vector Labs Studio?** It builds upon the principles of the handbook and follows the Standards Foundation, translating product intent and design requirements into sustainable, reliable, and adaptable software systems.
+This standard defines the shared baseline for engineering software systems within Vector Labs Studio. It answers a single question: **How should software systems be engineered within Vector Labs Studio?** It builds upon the principles of the handbook and follows the Standards Foundation, translating product intent and design requirements into sustainable, reliable, and adaptable software systems.
 
 ---
 
@@ -23,7 +23,7 @@ We treat engineering not as the mere production of code or completion of impleme
 
 *   **Outcome-Aware**: Connecting technical choices directly to the intended value of the system.
 *   **Quality-Conscious**: Integrating security, reliability, and observability throughout development.
-*   **Evidence-Informed**: Relying on metrics, tests, observations, and prototypes to guide decisions.
+*   **Evidence-Informed**: Relying on metrics, tests, observations, and prototypes to guide choices.
 *   **Proportional**: Aligning analysis, review, and validation effort to the decision's impact, uncertainty, risk, and reversibility.
 
 ---
@@ -32,8 +32,8 @@ We treat engineering not as the mere production of code or completion of impleme
 
 Engineering decisions should begin by clarifying the context of the change:
 
-*   **Context and Constraints**: Understand the strategic outcome, required experience, quality expectations, operational environment, dependencies, expected lifetime, and cost of failure.
-*   **Proportional Rigor**: Match design and code analysis to the decision's impact. Small, isolated, and reversible changes should not require the same rigor or formal evaluation as high-impact or hard-to-reverse architectural choices.
+*   **Context and Constraints**: Understand the intended product outcomes, required experience behavior, material quality expectations, affected users and stakeholders, operational context, dependencies, expected lifetime, and cost of failure.
+*   **Proportional Rigor**: Match engineering analysis, verification, and review to the decision's impact. Small, isolated, and reversible changes should not require the same rigor or formal evaluation as high-impact or difficult-to-reverse architectural choices.
 
 ---
 
@@ -62,7 +62,7 @@ Software systems should be structured with clear responsibilities and meaningful
 Systems should be engineered with future change in mind, without assuming that change is free:
 
 *   **Preserving Options**: Favor decisions that preserve options when uncertainty is high, provided the cost of doing so is proportionate.
-*   **Managing Evolution**: Consider rollout and rollback plans, compatibility, data migrations, deprecation, and the ability to retire obsolete behavior. Incremental and observable changes should be preferred when they reduce risk.
+*   **System Evolution**: Rollouts, rollbacks, compatibility, migrations, deprecations, and retirement should proportionately consider existing users or consumers, dependent systems, temporary coexistence of old and new behavior, transitional complexity, and recovery when migration assumptions prove incorrect.
 
 ---
 
@@ -70,9 +70,8 @@ Systems should be engineered with future change in mind, without assuming that c
 
 Software should behave consistently with its intended responsibilities and quality expectations under diverse operational conditions:
 
-*   **Robustness**: Account proportionately for invalid inputs, partial information, concurrency, timeouts, retries, and unavailable dependencies.
-*   **Graceful Degradation**: Treat failure as an expected system condition. Systems should fail predictably, limit the spread of failure, preserve important state, support safe retry, and degrade proportionately when full functionality is unavailable.
-*   **Proportional Availability**: The required level of reliability and redundancy should reflect the system's impact and cost of failure, avoiding identical availability strategies for all systems.
+*   **Robustness**: Account proportionately for valid and invalid inputs, partial information, concurrency, timeouts, retries, duplicate operations, and unavailable dependencies.
+*   **Rigor and Degradation**: Reliability expectations should be proportional to impact and the cost of failure. Systems should degrade safely when partial operation is appropriate, otherwise fail clearly and predictably, limit the spread of failure, preserve important state where practical, and support proportionate recovery.
 
 ---
 
@@ -80,6 +79,7 @@ Software should behave consistently with its intended responsibilities and quali
 
 Data and state should have clear meaning, ownership, lifecycle, and consistency expectations:
 
+*   **Lifecycle and Behavior**: State and data expectations should clarify origin, meaning, authority to mutate, authoritative representation, validity and staleness, conflict handling, observation of changes, migration, retention, removal, and behavior when state is incomplete or inconsistent.
 *   **Authoritative Representations**: Establish clear ownership of data and define which state representation is authoritative. We avoid unnecessary duplication of authoritative state.
 *   **Derived State**: Derived or cached state representations may be introduced when their purpose, validity, and synchronization expectations are clear.
 
@@ -89,27 +89,26 @@ Data and state should have clear meaning, ownership, lifecycle, and consistency 
 
 Interfaces should communicate clear responsibilities and expectations:
 
-*   **Explicit Contracts**: Contracts should make relevant assumptions explicit, including accepted inputs, produced outputs, side effects, side-channel assumptions, and failure behaviors.
+*   **Explicit Contracts**: Contracts should make relevant assumptions explicit, including accepted inputs, produced outputs, failure behavior, side effects, ownership, compatibility expectations, timing assumptions, ordering assumptions, and coordination expectations.
 *   **Purpose-Driven Interfaces**: Prefer small, focused interfaces over broad, general ones. We avoid leaking internal implementation details when doing so creates unnecessary coupling.
 
 ---
 
 ## Quality, Verification, and Review
 
-We evaluate quality through the confidence the system provides, not through code volume or metric compliance:
+We evaluate quality through the confidence the system provides, rather than code volume, test count, metric targets, or process completion alone:
 
-*   **Confidence-Driven Verification**: Match verification effort (such as automated checks, tests, static analysis, observation, staged exposure, or manual verification) to the risk, cost, and frequency of change.
-*   **Behavioral Testing**: Testing should focus on verifying meaningful behavior, contracts, risks, and failure modes rather than code structure alone.
-*   **Comprehensive Review**: Reviews should evaluate alignment with intent, boundaries, complexity, security, operability, and the cost of future change. Review depth should reflect the consequence and reversibility of the choice.
+*   **Confidence-Driven Verification**: Match verification effort (such as automated checks, tests, static analysis, observation, staged exposure, or manual verification) to the risk, cost, complexity, and frequency of change. Testing should focus on verifying meaningful behavior, contracts, risks, assumptions, and failure modes rather than code structure alone.
+*   **Proportional Review**: Reviews should evaluate alignment with intended behavior, correctness, clarity, responsibility boundaries, unnecessary complexity, coupling, reliability, security, operability, verification quality, migration impact, future change cost, and unintended effects. Review depth should reflect the consequence and reversibility of the choice, avoiding formal architectural review for small changes.
 
 ---
 
 ## Security and Privacy
 
-Security and privacy are fundamental qualities that should be considered throughout engineering decisions:
+Security and privacy should be considered throughout engineering decisions, and scaled to the system's threat context, data sensitivity, and operational exposure:
 
-*   **Foundational Security**: System design should proportionately evaluate trust boundaries, access, secure defaults, sensitive data minimization, and observability without unnecessary disclosure.
-*   **Contextual Rigor**: Security rigor should reflect the system's threat context, data sensitivity, and operational exposure.
+*   **Foundational Controls**: System design should proportionately consider trust boundaries, authority and access scope, sensitive data, data minimization, misuse and abuse, dependency risk, secure defaults, failure behavior, retention and removal, and observability without unnecessary disclosure.
+*   **Minimizing Exposure**: Observability and diagnostics should seek to minimize unnecessary exposure of sensitive data and reduce operational risk.
 
 ---
 
@@ -117,17 +116,17 @@ Security and privacy are fundamental qualities that should be considered through
 
 Dependencies introduce both capabilities and operational costs:
 
-*   **Justification**: A dependency should be introduced only when the value it provides outweighs the control, security risk, upgrade burden, and complexity it introduces.
+*   **Dependency Evaluation**: Before introducing or expanding a dependency, consider proportionately the capability gained, maintenance burden, operational ownership, security and privacy exposure, compatibility, failure modes, upgrade path, replacement or exit path, reversibility, and long-term sustainability.
 *   **Reflexive Decisions**: Avoid both indiscriminate dependency adoption and reflexive reimplementation of common solutions.
 
 ---
 
 ## Observability and Operability
 
-Systems should provide enough visibility to understand whether they are behaving as intended:
+Systems should provide enough visibility to understand whether they are behaving as intended and support operational health:
 
-*   **Actionable Visibility**: Telemetry, logs, and signals should support detecting failure, diagnosing unexpected behavior, and validating assumptions. Avoid collecting information without a clear operational or learning purpose.
-*   **Data Protection**: Ensure sensitive information is not exposed through logs, metrics, or diagnostics.
+*   **Operational Support**: Provide proportionate support for understanding runtime conditions, detecting and diagnosing failure, safe operational intervention, recovery, degraded or unavailable states, identifying ownership or escalation needs, and learning from production behavior.
+*   **Signals**: Logs, metrics, traces, and telemetry signals should remain meaningful, actionable, and appropriate to their audience, avoiding information collection without a clear operational or learning purpose.
 
 ---
 
@@ -144,7 +143,7 @@ Performance is a user experience and operational quality:
 
 Technical debt exists when a current decision creates a meaningful future cost, risk, or limitation:
 
-*   **Visible Debt**: Distinguish between deliberate trade-offs, outdated assumptions, temporary shortcuts, accumulated complexity, and personal preferences. Material debt should be visible enough to inform future decisions.
+*   **Visible Debt**: Distinguish between deliberate trade-offs, outdated assumptions, temporary shortcuts, accumulated complexity, and preferences. Material debt should be visible enough to inform future decisions.
 *   **Proportional Management**: Manage debt according to its likelihood, impact, urgency, and cost of remediation, rather than expecting all debt to be eliminated.
 
 ---
@@ -162,5 +161,5 @@ Automation should reduce repeatable effort, inconsistency, delay, or risk:
 
 Engineering decisions involve balancing competing qualities:
 
-*   **Trade-off Reasoning**: Product and platform decisions should be explainable through intended outcomes, constraints, evidence, alternatives, and accepted risks.
-*   **Dynamic Assumptions**: Decisions involving uncertain outcomes should be treated as working hypotheses and refined through observation and evidence.
+*   **Trade-off Reasoning**: Engineering decisions should be explainable through intended outcomes, constraints, evidence, alternatives, and accepted risks.
+*   **Uncertain Assumptions**: When an engineering decision depends on uncertain assumptions, those assumptions should be visible enough to evaluate and revisit as evidence, requirements, or operating conditions change.
